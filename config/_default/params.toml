@@ -1,0 +1,83 @@
+title = "Bot Studio"
+description = "Read Bot Studio's latest blogs and documentation. Learn more about the world of chatbots and social media!"
+images = ["cover.png"]
+mainSections = ["docs"]
+
+[doks]
+  colorMode = "auto"
+  colorModeToggler = true
+  navbarSticky = true
+  containerBreakpoint = "lg"
+  flexSearch = true
+  searchExclKinds = []
+  searchExclTypes = []
+  showSearch = []
+  indexSummary = false
+  showDate = false
+  showSummary = true
+  searchLimit = 10
+  alert = false
+  alertDismissable = true
+  bootstrapJavascript = false
+  sectionNav = ["docs"]
+  toTopButton = true
+  breadcrumbTrail = false
+  headlineHash = true
+  scrollSpy = true
+  multilingualMode = false
+  showMissingLanguages = true
+  docsVersioning = false
+  docsVersion = "1.0"
+  headerBar = true
+  backgroundDots = true
+  sectionFooter = false
+  relatedPosts = true
+  imageList = true
+  imageSingle = true
+  editPage = true
+  lastMod = false
+  repoHost = "GitHub"
+  docsRepo = "https://github.com/absyro/botstudio-doks"
+  docsRepoBranch = "main"
+  docsRepoSubPath = ""
+
+[render_hooks.image]
+  errorLevel = 'ignore'
+
+[render_hooks.link]
+  errorLevel = 'ignore'
+  highlightBroken = false
+
+[hyas_images]
+  [hyas_images.defaults]
+    decoding = "async"
+    fetchpriority = "auto"
+    loading = "lazy"
+    widths = [480, 576, 768, 1025, 1200, 1440]
+    sizes = "auto"
+    process = ""
+    lqip = "16x webp q20"
+
+[inline_svg]
+  iconSetDir = "tabler-icons"
+
+[seo]
+  [seo.title]
+    separator = " - "
+    suffix = ""
+  [seo.favicons]
+    sizes = []
+    icon = "favicon.png"
+    svgIcon = "favicon.svg"
+    maskIcon = "icon-mask.png"
+    maskIconColor = "white"
+  [seo.schemas]
+    type = "Organization"
+    logo = "favicon.png"
+    name = "Absyro"
+    sameAs = ["https://github.com/absyro"]
+    images = ["cover.png"]
+    article = []
+    newsArticle = []
+    blogPosting = ["blog"]
+    product = []
