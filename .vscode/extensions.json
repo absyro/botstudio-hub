@@ -5,6 +5,8 @@
     "PKief.material-icon-theme",
     "zh9528.file-size",
     "jock.svg",
-    "unifiedjs.vscode-mdx"
+    "unifiedjs.vscode-mdx",
+    "tamasfe.even-better-toml",
+    "syler.sass-indented"
   ]
 }
