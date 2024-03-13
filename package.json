@@ -5,14 +5,10 @@
   "author": "Absyro Company",
   "license": "MIT",
   "scripts": {
-    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost:3000 --noHTTPCache --port=3000",
-    "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost:3000 --noHTTPCache --buildDrafts --port=3000",
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
     "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
     "preview": "http-server --gzip --brotli --ext=html --cors",
-    "clean": "npm run clean:build && npm run clean:lint && npm run clean:install",
-    "clean:build": "shx rm -rf public resources .hugo_build.lock",
-    "clean:install": "shx rm -rf node_modules package-lock.json yarn.lock pnpm-lock.yaml",
     "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
   },
@@ -26,18 +22,18 @@
     "gethyas": "^2.2.2",
     "hugo-installer": "^4.0.1"
   },
-  "devDependencies": {
-    "shx": "^0.3.4"
-  },
   "otherDependencies": {
     "hugo": "0.123.7"
   },
   "overrides": {
     "semver": "^7.5.4"
   },
-  "engines": {
-    "node": ">=18.14.1",
-    "pnpm": ">=8.10.0"
+  "bugs": {
+    "url": "https://github.com/absyro/botstudio-doks/issues"
   },
-  "packageManager": "pnpm@8.12.0"
+  "homepage": "https://github.com/absyro/botstudio-doks#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/absyro/botstudio-doks.git"
+  }
 }
