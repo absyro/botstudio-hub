@@ -5,8 +5,8 @@
   "author": "Absyro Company",
   "license": "MIT",
   "scripts": {
-    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
-    "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --buildDrafts",
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost:3000 --noHTTPCache --port=3000",
+    "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost:3000 --noHTTPCache --buildDrafts --port=3000",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
     "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
     "preview": "http-server --gzip --brotli --ext=html --cors",
