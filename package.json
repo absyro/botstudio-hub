@@ -1,12 +1,12 @@
 {
   "name": "botstudio-hub",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Bot Studio - Hub",
   "author": "Absyro Company",
   "license": "MIT",
   "scripts": {
-    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --port=3000 --disableFastRender --baseURL=http://localhost --noHTTPCache",
-    "build": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo && exec-bin node_modules/.bin/hugo/hugo --minify"
+    "dev": "exec-bin bin/hugo/hugo server --disableFastRender --noHTTPCache --minify --navigateToChanged && sleep 2 && pkill -f 'hugo server'",
+    "postinstall": "hugo-installer --version 0.123.7 --extended"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
@@ -20,13 +20,8 @@
     "gethyas": "^2.2.2",
     "hugo-installer": "^4.0.1",
     "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
     "purgecss-whitelister": "^2.4.0"
-  },
-  "otherDependencies": {
-    "hugo": "0.123.7"
-  },
-  "overrides": {
-    "semver": "^7.5.4"
   },
   "bugs": {
     "url": "https://github.com/absyro/botstudio-hub/issues"
