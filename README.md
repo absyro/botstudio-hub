@@ -5,4 +5,4 @@
 ## Local Development
 
 1. Run `npm install` to install the dependencies.
-2. Run `npm run dev` to start the development server and visit http://127.0.0.1:3000.
+2. Run `npm run dev` to start the development server and visit http://localhost:3000.
