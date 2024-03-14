@@ -8,6 +8,6 @@ draft: false
 seo:
   title: "Bot Studio"
   description: "Explore our newest blogs and documentation."
-  canonical: "https://botstudioo.com"
+  canonical: "https://www.botstudioo.com"
   noindex: false
 ---

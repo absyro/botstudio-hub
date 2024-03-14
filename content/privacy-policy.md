@@ -9,6 +9,6 @@ type: "legal"
 seo:
   title: "Bot Studio - Privacy Policy"
   description: "Discover Bot Studio's privacy policy and gain deeper insights into our practices to ensure your data security and privacy."
-  canonical: "https://botstudioo.com"
+  canonical: "https://www.botstudioo.com"
   noindex: false
 ---
