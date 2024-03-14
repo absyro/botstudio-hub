@@ -1,4 +1,4 @@
-# Bot Studio Doks
+# Bot Studio Hub
 
 **This project is a customized fork of the Hugo's Doks theme. The original GitHub repository can be accessed by [clicking here](https://github.com/gethyas/doks).**
 

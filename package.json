@@ -1,7 +1,7 @@
 {
-  "name": "botstudio-doks",
+  "name": "botstudio-hub",
   "version": "1.0.0",
-  "description": "Bot Studio - Doks",
+  "description": "Bot Studio - Hub",
   "author": "Absyro Company",
   "license": "MIT",
   "scripts": {
@@ -33,11 +33,11 @@
     "semver": "^7.5.4"
   },
   "bugs": {
-    "url": "https://github.com/absyro/botstudio-doks/issues"
+    "url": "https://github.com/absyro/botstudio-hub/issues"
   },
-  "homepage": "https://github.com/absyro/botstudio-doks#readme",
+  "homepage": "https://github.com/absyro/botstudio-hub#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/absyro/botstudio-doks.git"
+    "url": "https://github.com/absyro/botstudio-hub.git"
   }
 }

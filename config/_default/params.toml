@@ -37,7 +37,7 @@ mainSections = ["docs"]
   editPage = true
   lastMod = false
   repoHost = "GitHub"
-  docsRepo = "https://github.com/absyro/botstudio-doks"
+  docsRepo = "https://github.com/absyro/botstudio-hub"
   docsRepoBranch = "main"
   docsRepoSubPath = ""
 
