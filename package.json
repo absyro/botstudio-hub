@@ -1,11 +1,11 @@
 {
   "name": "botstudio-hub",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Bot Studio - Hub",
   "author": "Absyro Company",
   "license": "MIT",
   "scripts": {
-    "dev": "exec-bin bin/hugo/hugo server --disableFastRender --noHTTPCache --minify --navigateToChanged",
+    "dev": "exec-bin bin/hugo/hugo server --disableFastRender --noHTTPCache --navigateToChanged",
     "build": "exec-bin bin/hugo/hugo --minify",
     "postinstall": "hugo-installer --version 0.123.7 --extended"
   },
@@ -31,8 +31,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/absyro/botstudio-hub.git"
-  },
-  "engines": {
-    "node": ">=18.14.1"
   }
 }
