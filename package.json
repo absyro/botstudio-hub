@@ -5,7 +5,8 @@
   "author": "Absyro Company",
   "license": "MIT",
   "scripts": {
-    "dev": "exec-bin bin/hugo/hugo server --disableFastRender --noHTTPCache --minify --navigateToChanged && sleep 2 && pkill -f 'hugo server'",
+    "dev": "exec-bin bin/hugo/hugo server --disableFastRender --noHTTPCache --minify --navigateToChanged",
+    "build": "exec-bin bin/hugo/hugo --minify",
     "postinstall": "hugo-installer --version 0.123.7 --extended"
   },
   "dependencies": {
