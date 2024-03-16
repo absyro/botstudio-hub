@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "hugo server --disableFastRender --noHTTPCache --navigateToChanged",
-    "build": "hugo --minify"
+    "build": "hugo --minify --gc"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
