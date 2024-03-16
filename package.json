@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "exec-bin bin/hugo/hugo server --disableFastRender --noHTTPCache --navigateToChanged",
     "build": "exec-bin bin/hugo/hugo --minify --gc",
-    "postinstall": "hugo-installer --version 0.103.0 --extended"
+    "postinstall": "hugo-installer --version 0.123.0 --extended"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
