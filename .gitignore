@@ -4,4 +4,3 @@ public
 *.lock
 resources
 hugo_stats.json
-bin
