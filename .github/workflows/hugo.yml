@@ -41,9 +41,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
-        run: |
-          npm install -g npm@latest
-          npm install -g postcss-cli autoprefixer
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
