@@ -1,6 +1,6 @@
 title = "Bot Studio"
-baseurl = "https://hub.botstudioo.com"
-canonifyURLs = true
+baseurl = "/"
+canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
