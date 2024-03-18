@@ -3,3 +3,4 @@ public
 *.lock
 resources
 hugo_stats.json
+package-lock.json
