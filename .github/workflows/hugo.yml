@@ -6,19 +6,9 @@ on:
       - main
 
 permissions:
-  actions: write
-  checks: write
-  contents: write
-  deployments: write
-  id-token: write
-  issues: write
-  discussions: write
-  packages: write
+  contents: read
   pages: write
-  pull-requests: write
-  repository-projects: write
-  security-events: write
-  statuses: write
+  id-token: write
 
 concurrency:
   group: pages
@@ -72,4 +62,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        run: |
+          npm install -g http-server
+          cd public
+          http-server -p 3000
