@@ -1,6 +1,4 @@
-node_modules
-public
-*.lock
-resources
-hugo_stats.json
-package-lock.json
+.hugo_build.lock
+node_modules/
+public/
+resources/
