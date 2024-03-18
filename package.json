@@ -30,7 +30,6 @@
     "url": "https://github.com/absyro/botstudio-hub.git"
   },
   "engines": {
-    "node": ">=20.11.1",
-    "npm": ">=10.2.4"
+    "node": ">=18.14.1"
   }
 }
