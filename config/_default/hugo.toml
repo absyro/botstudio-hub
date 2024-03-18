@@ -1,6 +1,5 @@
 title = "Bot Studio"
 baseurl = "/"
-canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
