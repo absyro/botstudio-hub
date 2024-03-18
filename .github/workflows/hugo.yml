@@ -62,6 +62,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        run: |
-          npm install -g http-server
-          http-server -p 3000
+        uses: actions/deploy-pages@v4
