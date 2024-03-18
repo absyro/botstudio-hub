@@ -7,7 +7,6 @@
     "jock.svg",
     "unifiedjs.vscode-mdx",
     "tamasfe.even-better-toml",
-    "syler.sass-indented",
-    "github.vscode-github-actions"
+    "syler.sass-indented"
   ]
 }
