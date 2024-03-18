@@ -64,5 +64,4 @@ jobs:
         id: deployment
         run: |
           npm install -g http-server
-          cd public
           http-server -p 3000
