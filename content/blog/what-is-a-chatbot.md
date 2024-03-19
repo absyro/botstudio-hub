@@ -18,9 +18,9 @@ seo:
   noindex: false
 ---
 
-<img src="/images/chatbot.svg" alt="What is a chatbot?">
+{{< inline-svg src="svgs/chatbot.svg" class="svg-inline-custom" >}}
 
-# Chatbot
+## Chatbot
 
 A **chatbot** is an artificial intelligence (AI) software designed to interact with humans in their natural language. These interactions can occur through messaging applications, mobile apps, websites, or even through the telephone.
 
