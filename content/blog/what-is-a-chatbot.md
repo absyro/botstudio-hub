@@ -5,7 +5,7 @@ summary: "In this Bot Studio's blog, we'll see what a chatbot really is and how 
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
-weight: 50
+weight: 100
 categories: ["chatbots"]
 tags: ["knowledge", "chatbots"]
 contributors: ["Amir Farzamnia"]
@@ -13,7 +13,7 @@ pinned: false
 homepage: false
 seo:
   title: "Bot Studio - What is a chatbot?"
-  description: "In this Bot Studio's blog, we'll see what a chatbot really is and how it works."
+  description: "Have you ever heard about chatbots or worked with one? This blog tells you what a chatbot really is, how it works, and how to create your own."
   canonical: "https://www.botstudioo.com"
   noindex: false
 ---

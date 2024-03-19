@@ -5,7 +5,7 @@ summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
-weight: 999
+weight: 100
 toc: true
 seo:
   title: "Bot Studio - Docs"

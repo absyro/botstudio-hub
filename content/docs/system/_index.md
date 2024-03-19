@@ -5,11 +5,11 @@ summary: ""
 date: 2023-09-07T16:06:50+02:00
 lastmod: 2023-09-07T16:06:50+02:00
 draft: false
-weight: 800
+weight: 100
 toc: false
 seo:
-  title: ""
-  description: ""
-  canonical: ""
+  title: "Bot Studio Docs - System"
+  description: "Learn more about Bot Studio's system. See how you can create your chatbots in Bot Studio and how to use its functionality. Click here to start."
+  canonical: "https://www.botstudioo.com"
   noindex: false
 ---
