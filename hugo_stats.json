@@ -304,6 +304,8 @@
       "TableOfContents",
       "_x3C_Path_x3E__359_",
       "acceptance-of-these-terms",
+      "additional-links",
+      "additional-resources",
       "api-request",
       "bot-studiohttpswwwbotstudioocom-your-no-code-chatbot-maker",
       "buttonColorMode",
@@ -312,6 +314,7 @@
       "conclusion",
       "default-nodes",
       "delay",
+      "discord",
       "doks-docs-nav",
       "how-do-chatbots-work",
       "how-to-use-chatbots",
@@ -339,9 +342,11 @@
       "sharing-your-personal-information",
       "socialMenu",
       "sockets",
+      "telegram",
       "toTop",
       "toc",
-      "utilizing-your-information"
+      "utilizing-your-information",
+      "whatsapp"
     ]
   }
 }
