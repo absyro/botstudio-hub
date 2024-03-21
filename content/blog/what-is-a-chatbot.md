@@ -22,7 +22,7 @@ seo:
 
 ## Chatbot
 
-A **chatbot** is an artificial intelligence (AI) software designed to interact with humans in their natural language. These interactions can occur through messaging applications, mobile apps, websites, or even through the telephone.
+**A chatbot is an artificial intelligence (AI) software designed to interact with humans in their natural language.** These interactions can occur through messaging applications, mobile apps, websites, or even through the telephone.
 
 ## How Do Chatbots Work?
 

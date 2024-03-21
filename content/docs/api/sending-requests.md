@@ -30,7 +30,7 @@ You can now integrate with Bot Studio using this session key. However, it is cru
 
 ###### Node.js Example
 
-```javascript
+```javascript { lineNos = true }
 const method = "POST";
 const url = "https://botstudioo.com/api/renamebot";
 const session = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
@@ -54,7 +54,7 @@ fetch(url, {
 
 ###### Python Example
 
-```python
+```python { lineNos = true }
 import requests
 
 method = 'POST'

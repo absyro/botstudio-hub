@@ -22,9 +22,9 @@ In Bot Studio, global variables serve as universally accessible variables throug
 
 They are termed “global” because they are accessible across all nodes in a system. To use a global variable, simply enclose its name in brackets. For instance, `{key}` refers to the chatbot key.
 
-##### [Case Sensitivity](https://en.wikipedia.org/wiki/Case_sensitivity)
+##### Case Sensitivity
 
-Bear in mind that these variables are case-sensitive, meaning `key` and `kEy` are distinct. Also, if a value doesn’t exist, it won’t be replaced.
+Bear in mind that these variables are case-sensitive, meaning `key` and `KEY` are distinct. Also, if a value doesn’t exist, it won’t be replaced.
 
 ##### Using Backslashes Before Global Variables
 
