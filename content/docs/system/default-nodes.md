@@ -36,7 +36,9 @@ The delay node is employed to introduce a pause in the process. It prevents any 
 
 The value for the delay node should be specified in milliseconds. For instance, a delay of 2 seconds is equivalent to 2000 milliseconds.
 
+{{< callout context="note" >}}
 By default, if the delay value is less than 0, it will be automatically set to 0. Similarly, if the delay value exceeds 10000, it will be capped at 10000. This ensures that the delay duration remains within a reasonable range.
+{{< /callout >}}
 
 ---
 
@@ -72,7 +74,7 @@ You can use the JSON Extractor node to extract the value of “name” (which is
 
 Indeed, the API Request node allows you to send API requests to a specified address and receive the response as a JSON object. If the response is successful (or in programming terms, if it returns an ‘OK’ status), then the standard action output is executed. Conversely, if there’s an error, the error output is triggered. Regardless of the outcome—success or failure—you can utilize the received JSON object.
 
-You have the option to include a body parameter for API requests. However, please note that for the HEAD and GET request methods, the body parameter will not be transmitted to the server. This is due to the nature of these HTTP methods, which are designed to retrieve data, not send it. This node provides a flexible way to interact with APIs directly from your chatbot system, enhancing its capabilities and integration potential.
+You can incorporate all API parameters, including headers, body, cookies, and so on, in JSON format using this node.
 
 ---
 
@@ -90,6 +92,6 @@ You also have the option to return a result value at the end of your code. This 
 
 All features of Python code are explained in a template that comes with each Python node. Whenever you create a Python node, you can refer to these default templates for further understanding. This makes it easier for you to learn and apply Python within the Bot Studio environment.
 
----
-
-On this page, you've learned about the functionality of default nodes and their specific roles. Continue the tutorial to explore further pages and delve into Bot Studio's advanced system. 📚
+{{< callout context="caution" >}}
+Python nodes are presently in an experimental phase and are subject to potential changes in the future.
+{{< /callout >}}

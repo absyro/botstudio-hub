@@ -1,8 +1,18 @@
-code {
-    border-radius: 0.125rem;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+code,
+.callout {
+    border-radius: 0.2rem;
 }
 
-[role=document] {
+p,
+ol,
+ul,
+.section-nav details > summary {
+    font-size: medium;
+}
+
+body.docs [role=document] {
     margin-left: 0;
     margin-right: 0;
 }
@@ -11,16 +21,4 @@ code {
     .docs-content {
         width: 80% !important;
     }
-}
-
-.section-nav details > summary {
-    font-weight: 100;
-    font-size: medium;
-}
-
-.page-nav .card {
-    border-radius: 0.25rem;
-}
-.page-nav .card:hover {
-    background: #0000002d;
 }

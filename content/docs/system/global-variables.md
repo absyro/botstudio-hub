@@ -24,7 +24,7 @@ They are termed “global” because they are accessible across all nodes in a s
 
 ##### [Case Sensitivity](https://en.wikipedia.org/wiki/Case_sensitivity)
 
-Bear in mind that these variables are case-sensitive, meaning `Key` and `key` are distinct. Also, if a value doesn’t exist, it won’t be replaced.
+Bear in mind that these variables are case-sensitive, meaning `key` and `kEy` are distinct. Also, if a value doesn’t exist, it won’t be replaced.
 
 ##### Using Backslashes Before Global Variables
 
