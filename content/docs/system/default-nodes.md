@@ -6,7 +6,7 @@ date: 2023-09-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
 weight: 200
-toc: true
+toc: false
 seo:
   title: "Bot Studio Docs - Default Nodes"
   description: "In Bot Studio, certain nodes may be universally applicable across all platforms. Click here to see how they work."
@@ -92,4 +92,4 @@ All features of Python code are explained in a template that comes with each Pyt
 
 ---
 
-On this page, you've learned about the functionality of default nodes and their specific roles. Continue the tutorial to explore further pages and delve into Bot Studio's advanced system.
+On this page, you've learned about the functionality of default nodes and their specific roles. Continue the tutorial to explore further pages and delve into Bot Studio's advanced system. 📚
