@@ -40,4 +40,6 @@ For channel nodes, all nodes associated with channels in Bot Studio are powered 
 
 In Bot Studio, WhatsApp bots use the unofficial WhatsApp API, which is powered by the WhatsApp Web JS library. You can't send API requests to any specific endpoints to use these nodes. Here is a list of all Bot Studio's WhatsApp nodes:
 
-**WhatsApp bots are in BETA and will be fully supported soon.**
+{{< callout context="caution" >}}
+WhatsApp bots are in BETA and will be fully supported soon.
+{{< /callout >}}
