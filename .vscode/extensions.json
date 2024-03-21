@@ -5,9 +5,9 @@
     "PKief.material-icon-theme",
     "zh9528.file-size",
     "jock.svg",
-    "unifiedjs.vscode-mdx",
     "tamasfe.even-better-toml",
     "syler.sass-indented",
-    "github.vscode-github-actions"
+    "github.vscode-github-actions",
+    "sibiraj-s.vscode-scss-formatter"
   ]
 }

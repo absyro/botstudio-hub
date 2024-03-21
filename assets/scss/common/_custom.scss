@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 code,
 .callout {
@@ -10,9 +10,10 @@ ol,
 ul,
 .section-nav details > summary {
     font-size: medium;
+    font-weight: normal;
 }
 
-body.docs [role=document] {
+body.docs [role="document"] {
     margin-left: 0;
     margin-right: 0;
 }

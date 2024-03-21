@@ -31,22 +31,25 @@ You can now integrate with Bot Studio using this session key. However, it is cru
 ###### Node.js Example
 
 ```javascript
-const method = 'POST';
-const url = 'https://botstudioo.com/api/renamebot';
-const session = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+const method = "POST";
+const url = "https://botstudioo.com/api/renamebot";
+const session = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 fetch(url, {
   method,
   headers: {
-    'Content-Type': 'application/json',
-    'Cookie': 'session=' + session
+    "Content-Type": "application/json",
+    "Cookie": "session=" + session
   },
   body: JSON.stringify({
-    name: 'Raven',
-    nname: 'Firefly',
-    platform: 'telegram'
+    name: "Raven",
+    nname: "Firefly",
+    platform: "telegram"
   })
-}).then((res) => res.json()).then((data) => console.log(data)).catch((error) => console.error(error));
+})
+  .then((res) => res.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error(error));
 ```
 
 ###### Python Example

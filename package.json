@@ -1,12 +1,13 @@
 {
   "name": "botstudio-hub",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Bot Studio - Hub",
   "author": "Absyro Company",
   "license": "MIT",
   "scripts": {
     "dev": "hugo server --disableFastRender --noHTTPCache",
-    "build": "hugo --minify --gc"
+    "build": "hugo --minify --gc",
+    "format": "prettier layouts config content assets -w -c"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",

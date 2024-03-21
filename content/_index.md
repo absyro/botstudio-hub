@@ -1,5 +1,5 @@
 ---
-title : "Bot Studio Hub"
+title: "Bot Studio Hub"
 description: ""
 lead: "Explore our latest blogs and documents!"
 date: 2023-09-07T16:33:54+02:00
