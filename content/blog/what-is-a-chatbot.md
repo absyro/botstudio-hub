@@ -40,7 +40,7 @@ Chatbots can be used in various ways, including customer service, information re
 
 ## [Bot Studio](https://www.botstudioo.com): Your No-Code Chatbot Maker
 
-If you're interested in creating your own chatbot, [Bot Studio](https://www.botstudioo.com) is a great place to start. It's a no-code chatbot maker, meaning you can create a chatbot without any programming knowledge. With [Bot Studio](https://www.botstudioo.com), you can create a chatbot that suits your needs, whether for business or personal use.
+If you're interested in creating your own chatbot, [Bot Studio](https://www.botstudioo.com) is a great place to start. It's a no-code chatbot maker, meaning you can create a chatbot without any programming knowledge. With [Bot Studio](https://www.botstudioo.com), you can create a chatbot that suits your needs, whether for business or personal use. [Click here to start using Bot Studio for free](https://www.botstudioo.com).
 
 ## Conclusion
 
