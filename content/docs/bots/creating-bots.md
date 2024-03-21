@@ -44,7 +44,7 @@ In the configuration form, you must enter your favorite name for your chatbot, w
 
 To create a WhatsApp chatbot, first click on the "Create Chatbot" button on the sidebar of the dashboard page. Then select the WhatsApp platform and click on the "next" button to process.
 
-In the configuration form, you must enter your favorite name for your chatbot, which consists of a minimum of 2 letters. Then you must scan the QR code using your WhatsApp account using these steps. [You can visit the official WhatsApp website to see how to scan a new QR code](https://faq.whatsapp.com/1317564962315842/?cms_platform=web)
+In the configuration form, you must enter your favorite name for your chatbot, which consists of a minimum of 2 letters. Then you must scan the QR code using your WhatsApp account using these steps. [You can visit the official WhatsApp website to see how to scan a new QR code](https://faq.whatsapp.com/1317564962315842/?cms_platform=web).
 
 ---
 
