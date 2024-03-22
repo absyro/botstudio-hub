@@ -28,37 +28,46 @@ This guide will instruct you on how to dispatch API requests to Bot Studio's end
 
 You can now integrate with Bot Studio using this session key. However, it is crucial to exercise caution and ensure that this session key does not fall into the wrong hands, as it contains the necessary information to log into your account.
 
-###### Node.js Example
+{{< tabs "sending-request" >}}
+{{< tab "Node.js" >}}
 
 ```javascript { lineNos = true }
 const method = "POST";
-const url = "https://botstudioo.com/api/renamebot";
+const url = "https://www.botstudioo.com/api/renamebot";
 const session = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
-fetch(url, {
-  method,
-  headers: {
-    "Content-Type": "application/json",
-    "Cookie": "session=" + session
-  },
-  body: JSON.stringify({
-    name: "Raven",
-    nname: "Firefly",
-    platform: "telegram"
-  })
-})
-  .then((res) => res.json())
-  .then((data) => console.log(data))
-  .catch((error) => console.error(error));
+sendRequest();
+
+async function sendRequest() {
+  try {
+    const response = await fetch(url, {
+      method,
+      headers: {
+        "Content-Type": "application/json",
+        "Cookie": "session=" + session
+      },
+      body: JSON.stringify({
+        name: "Raven",
+        nname: "Firefly",
+        platform: "telegram"
+      })
+    });
+
+    console.log(await response.json());
+  } catch (error) {
+    console.error(error);
+  }
+}
 ```
 
-###### Python Example
+{{< /tab >}}
+{{< tab "Python" >}}
 
 ```python { lineNos = true }
 import requests
 
 method = 'POST'
-url = 'https://botstudioo.com/api/renamebot'
+url = 'https://www.botstudioo.com/api/renamebot'
 session = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 response = requests.post(url, json={
@@ -82,6 +91,9 @@ try {
   print(f'An error occurred: {e}')
 }
 ```
+
+{{< /tab >}}
+{{< /tabs >}}
 
 ##### Note on privacy and trust
 
