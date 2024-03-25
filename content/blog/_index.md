@@ -2,8 +2,8 @@
 title: "Blog"
 description: ""
 summary: "Explore the latest blogs about the world of robots in Bot Studio's blogs."
-date: 2023-09-07T16:21:44+02:00
-lastmod: 2023-09-07T16:21:44+02:00
+date: 2024-03-01T16:16:06Z
+lastmod: 2024-03-01T16:16:06Z
 draft: false
 categories: []
 tags: []

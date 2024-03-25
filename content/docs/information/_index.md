@@ -2,8 +2,8 @@
 title: "Information"
 description: ""
 summary: ""
-date: 2023-09-07T16:06:50+02:00
-lastmod: 2023-09-07T16:06:50+02:00
+date: 2024-03-01T16:16:06Z
+lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 400
 toc: false

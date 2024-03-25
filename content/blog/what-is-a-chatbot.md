@@ -2,8 +2,8 @@
 title: "What is a chatbot?"
 description: ""
 summary: "In this Bot Studio's blog, we'll see what a chatbot really is and how it works."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+date: 2024-03-01T16:16:06Z
+lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 100
 categories: ["chatbots"]
