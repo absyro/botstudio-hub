@@ -14,7 +14,9 @@ seo:
   noindex: false
 ---
 
-This document provides an overview of the technologies and libraries used in our website.
+This document provides an overview of the technologies and libraries used in our service.
+
+---
 
 ## Frontend Technologies
 
@@ -42,6 +44,8 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - **[Animate](https://animate.style)**: Animate is a CSS library used for adding animations to web pages. It provides a simple and lightweight way to add visual effects without the need for complex JavaScript code.
 - **[Bootstrap](https://getbootstrap.com)**: Bootstrap is a popular CSS framework used for creating responsive and mobile-friendly websites. It includes a wide range of pre-designed components and styles, making it easy to create professional-looking websites.
 - **[Font Awesome](https://fontawesome.com)**: Font Awesome is a CSS library used for adding icons to web pages. It offers a large collection of customizable icons that can be easily integrated into any website.
+
+---
 
 ## Backend Technologies
 
@@ -76,13 +80,19 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - **[Build Manager](https://github.com/amirfarzamnia/buildm)**: Build Manager is a tool created by Absyro to automate the process of building and deploying Bot Studio applications. It handles tasks such as minifying code, bundling dependencies, and uploading files to hosting services.
 - **[Prettier](https://prettier.io)**: Prettier is a code formatting tool that helps maintain consistent and readable code. It can be integrated into various editors and IDEs, making it easy to format your code with just a few clicks.
 
+---
+
 ## Database
 
 Bot Studio uses Velocedb, a lightweight NoSQL database. It is fast, scalable, and easy to use. Velocedb also offers features such as data encryption and automatic backups.
 
+---
+
 ## Deployment and Hosting
 
 Bot Studio is using latest Ubuntu version for deployment and hosting. It also uses CloudFlare for DNS management and SSL encryption.
+
+---
 
 ## Other Tools
 
