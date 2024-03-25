@@ -59,7 +59,7 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 
 ### Libraries and Frameworks
 
-- **[Node.js](https://nodejs.org)**: Node.js is a popular JavaScript runtime environment that allows developers to run JavaScript code on the server-side. It is often used with frameworks like Express to build web applications.
+- **[Node.js](https://nodejs.org)**: Node.js is a popular JavaScript runtime environment that allows developers to run JavaScript code on the server-side.
 - **[Express](https://expressjs.com)**: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 - **[chalk](https://www.npmjs.com/package/chalk)**: chalk is a library for styling command-line output with colors and formatting. It is often used in Node.js projects to make console logs more visually appealing.
 - **[clone-deep](https://www.npmjs.com/package/clone-deep)**: clone-deep is a library for creating deep copies of JavaScript objects and arrays. It is useful when working with complex data structures that need to be manipulated without affecting the original data.
@@ -77,7 +77,7 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - **[whatsapp-web.js](https://wwebjs.dev)**: whatsapp-web.js is a Node.js library for interacting with WhatsApp's web interface. It allows for automation of sending and receiving messages, as well as other actions such as creating groups and managing contacts.
 - **[PM2](https://pm2.keymetrics.io)**: PM2 is a process manager for Node.js applications. It allows for easy deployment and management of multiple instances of an application, as well as monitoring and automatic restarts in case of crashes.
 - **[Nodemon](https://nodemon.io)**: Nodemon is a utility that monitors changes in your Node.js application and automatically restarts the server when changes are detected. This makes development and testing much easier, as you don't have to manually restart the server every time you make a change.
-- **[Build Manager](https://github.com/amirfarzamnia/buildm)**: Build Manager is a tool created by Absyro to automate the process of building and deploying Bot Studio applications. It handles tasks such as minifying code, bundling dependencies, and uploading files to hosting services.
+- **[Build Manager](https://github.com/amirfarzamnia/buildm)**: Build Manager is a tool created by Absyro to automate the process of building and deploying Bot Studio applications. It handles tasks such as minifying code and bundling dependencies.
 - **[Prettier](https://prettier.io)**: Prettier is a code formatting tool that helps maintain consistent and readable code. It can be integrated into various editors and IDEs, making it easy to format your code with just a few clicks.
 
 ---
@@ -96,8 +96,8 @@ Bot Studio is using latest Ubuntu version for deployment and hosting. It also us
 
 ## Other Tools
 
-- **[Hugo](https://gohugo.io)**: Hugo is a static site generator used for creating the Bot Studio documentation website. It allows for easy organization and customization of content.
-- **[GitHub Pages](https://pages.github.com)**: GitHub Pages is used to host the Bot Studio documentation website. It integrates seamlessly with Hugo and allows for easy updates and version control.
+- **[Hugo](https://gohugo.io)**: Hugo is a static site generator used for creating the Bot Studio hub website. It allows for easy organization and customization of content.
+- **[GitHub Pages](https://pages.github.com)**: GitHub Pages is used to host the Bot Studio hub website. It integrates seamlessly with Hugo and allows for easy updates and version control.
 - **[Go](https://go.dev)**: Go is the programming language used to develop Bot Studio. It is fast, efficient, and has a large community for support.
 - **[Git](https://git-scm.com)**: Git is used for version control and collaboration on the Bot Studio codebase. It allows for easy tracking of changes and merging of code from multiple contributors.
 - **[VS Code](https://code.visualstudio.com)**: Visual Studio Code is the preferred code editor for Bot Studio development. It has a wide range of features and extensions that make coding easier and more efficient.
