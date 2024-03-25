@@ -64,9 +64,8 @@ You can include all API parameters, including headers, body, cookies, etc., in J
 
 ## Python
 
-Python, with its simplicity and versatility, is a programming language that can be used across various applications. That's why Bot Studio includes Python programming nodes. With these nodes, you can write Python code to gain extensive control over your bot. There are three pre-defined functions available for use in your Python code:
+Python, with its simplicity and versatility, is a programming language that can be used across various applications. That's why Bot Studio includes Python programming nodes. With these nodes, you can write Python code to gain extensive control over your bot. There are 2 pre-defined functions available for use in your Python code:
 
-- `set_global_variable`: This function allows you to create new global variables or modify existing ones.
 - `get_global_variables`: This function retrieves a list of all available global variables in JSON format.
 - `get_inputs`: This function returns a list of all inputs.
 
