@@ -5,5 +5,5 @@
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
-    footer = 'Bot Studio Hub From <a class="text-muted" href="https://www.botstudioo.com/">Bot Studio Chatbot Maker</a>'
-    alertText = 'This website is a part of <a class="alert-link stretched-link fw-normal" href="https://www.botstudioo.com">Bot Studio Chatbot Maker</a>!'
+    footer = 'Bot Studio Hub From <a class="text-muted" href="https://www.botstudioo.com/">Bot Studio Robot Maker</a>'
+    alertText = 'This website is a part of <a class="alert-link stretched-link fw-normal" href="https://www.botstudioo.com">Bot Studio Robot Maker</a>!'

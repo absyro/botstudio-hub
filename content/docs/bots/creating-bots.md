@@ -5,54 +5,53 @@ summary: ""
 date: 2023-09-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
-weight: 200
+weight: 300
 toc: false
 seo:
   title: "Bot Studio Docs - Creating Bots"
-  description: "Want to create a chatbot without coding for free? Then Bot Studio is what you need. Click here to see how to create a chatbot for all platforms."
+  description: "Want to create a robot without coding for free? Then Bot Studio is what you need. Click here to see how to create a robot for all platforms."
   canonical: "https://www.botstudioo.com"
   noindex: false
 ---
 
-Creating a bot using Bot Studio is simple. To create a bot in Bot Studio, you must fill in some basic configurations, and then you can create your bot. Here is how you can create a chatbot:
+Creating a bot using Bot Studio is straightforward. You just need to fill in some basic configurations, and then you can create your bot. Here's how you can create a bot:
 
-## Telegram
+## Telegram Bot
 
-To create a Telegram chatbot, first click on the "Create Chatbot" button on the sidebar of the dashboard page. Then select the Telegram platform and click on the "next" button to process.
+1. Click on the "Create Bot" button on the sidebar of the dashboard page.
+2. Select the Telegram platform and click on the "Next" button.
+3. In the configuration form, enter a name for your bot (minimum of 2 letters).
+4. Enter the token you've received from Telegram's [@BotFather](https://t.me/BotFather).
 
-In the configuration form, you must enter your favorite name for your chatbot, which consists of a minimum of 2 letters. Then you must enter the token you've received from Telegram's [@botfather](https://t.me/BotFather). Here is how you can receive a [@botfather](https://t.me/BotFather) token:
+To get a [@BotFather](https://t.me/BotFather) token:
 
-1. Open the Telegram app and send a message to [@botfather](https://t.me/BotFather).
-2. Send the /newbot command and fill all required forms to create a chatbot.
-3. After creating a chatbot, [@botfather](https://t.me/BotFather) will send you a message which says your bot has been successfully created. This message contains the token which says (Use this token to access the HTTP API). You must use this token in Bot Studio's Telegram configuration to process.
+1. Open the Telegram app and send a message to [@BotFather](https://t.me/BotFather).
+2. Send the /newbot command and fill all required forms to create a bot.
+3. After creating a bot, [@BotFather](https://t.me/BotFather) will send you a message with your bot token. Use this token in Bot Studio's Telegram configuration.
 
----
+## Discord Bot
 
-## Discord
+1. Click on the "Create Bot" button on the sidebar of the dashboard page.
+2. Select the Discord platform and click on the "Next" button.
+3. In the configuration form, enter a name for your bot (minimum of 2 letters).
+4. Enter the token you've received from the [Discord Developer Portal](https://discord.com/developers/applications).
 
-To create a Discord chatbot, first click on the "Create Chatbot" button on the sidebar of the dashboard page. Then select the Discord platform and click on the "next" button to process.
+To get a [Discord Developer Portal](https://discord.com/developers/applications) token:
 
-In the configuration form, you must enter your favorite name for your chatbot, which consists of a minimum of 2 letters. Then you must enter the token you've received from the [Discord Developer Portal](https://discord.com/developers/applications). Here is how you can receive a [Discord Developer Portal](https://discord.com/developers/applications) token:
-
-1. [Click here to redirect to the Discord Developer Portal](https://discord.com/developers/applications).
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
 2. Create a new application and click on the "Bot" button on the sidebar.
-3. Click on the "Reset Token" button and copy the new Discord token. You must use this token to configure your chatbot.
+3. Click on the "Reset Token" button and copy the new Discord token. Use this token to configure your bot.
 
----
+## WhatsApp Bot
 
-## WhatsApp
+1. Click on the "Create Bot" button on the sidebar of the dashboard page.
+2. Select the WhatsApp platform and click on the "Next" button.
+3. In the configuration form, enter a name for your bot (minimum of 2 letters).
+4. Scan the QR code using your WhatsApp account. Visit the [official WhatsApp website](https://faq.whatsapp.com/1317564962315842/?cms_platform=web) to learn how to scan a new QR code.
 
-To create a WhatsApp chatbot, first click on the "Create Chatbot" button on the sidebar of the dashboard page. Then select the WhatsApp platform and click on the "next" button to process.
+After filling in the configuration, read Bot Studio's "Terms & Conditions". If you agree with these terms, go to the next form and check the accuracy of the configuration. Then click on the "Create" button and wait for the process to finish.
 
-In the configuration form, you must enter your favorite name for your chatbot, which consists of a minimum of 2 letters. Then you must scan the QR code using your WhatsApp account using these steps. [You can visit the official WhatsApp website to see how to scan a new QR code](https://faq.whatsapp.com/1317564962315842/?cms_platform=web).
-
----
-
-After filling in the configuration, you must read Bot Studio's "Terms & Conditions" about Telegram bots. If you agree with these terms, go to the next form and check the accuracy of the configuration. Then click on the create button and wait for the process to finish.
-
-If the chatbot was successfully created, you'll be redirected to the dashboard button and be able to manage your chatbot from the "Chatbots" sub-menu.
-
-If you face any issues, you'll see a notification about the issue cause.
+If the bot was successfully created, you'll be redirected to the dashboard and be able to manage your bot from the "Bots" sub-menu. If you face any issues, you'll see a notification about the issue cause.
 
 ## Additional Resources
 

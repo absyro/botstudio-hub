@@ -8,7 +8,7 @@ draft: false
 toc: false
 seo:
   title: "Bot Studio - Docs"
-  description: "Earn more knowledge about Bot Studio's chatbot maker using this documentation. Click here to learn how to make your chatbots without any limitations."
+  description: "Earn more knowledge about Bot Studio's robot maker using this documentation. Click here to learn how to make your robots without any limitations."
   canonical: "https://www.botstudioo.com"
   noindex: false
 ---
