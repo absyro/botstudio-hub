@@ -29,6 +29,10 @@ To get a [@BotFather](https://t.me/BotFather) token:
 2. Send the /newbot command and fill all required forms to create a bot.
 3. After creating a bot, [@BotFather](https://t.me/BotFather) will send you a message with your bot token. Use this token in Bot Studio's Telegram configuration.
 
+{{< callout context="caution" >}}
+When creating Telegram bots for a Telegram channel, the bot must have the capability to read events. For instance, it should be able to process message events and message contents to respond to messages or manage groups to perform tasks such as changing profile pictures.
+{{< /callout >}}
+
 ## Discord Bot
 
 1. Click on the "Create Bot" button on the sidebar of the dashboard page.
@@ -41,6 +45,10 @@ To get a [Discord Developer Portal](https://discord.com/developers/applications)
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
 2. Create a new application and click on the "Bot" button on the sidebar.
 3. Click on the "Reset Token" button and copy the new Discord token. Use this token to configure your bot.
+
+{{< callout context="caution" >}}
+When adding a Discord bot to your channel, it must have the ability to read events and messages. For instance, it needs to be able to read messages to respond to message events or to access message content for certain features. It's advisable to grant your bot access to all necessary features.
+{{< /callout >}}
 
 ## WhatsApp Bot
 
