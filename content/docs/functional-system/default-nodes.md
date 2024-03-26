@@ -67,7 +67,7 @@ You can include all API parameters, including headers, body, cookies, etc., in J
 Python, with its simplicity and versatility, is a programming language that can be used across various applications. That's why Bot Studio includes Python programming nodes. With these nodes, you can write Python code to gain extensive control over your bot. There are 2 pre-defined functions available for use in your Python code:
 
 - `get_global_variables`: This function retrieves a list of all available global variables in JSON format.
-- `get_inputs`: This function returns a list of all inputs.
+- `get_inputs`: This function returns an array containing all connected JSON input output values. It returns an array because Python nodes can have multiple connected JSON inputs.
 
 {{< callout context="caution" >}}
 Python nodes are presently in an experimental phase and are subject to potential changes in the future.
