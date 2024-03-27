@@ -100,3 +100,4 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - **[Cloudflare](https://www.cloudflare.com)**: Cloudflare is a content delivery network and security service that Bot Studio uses to optimize website performance and protect against cyber attacks.
 - **[Canva](https://www.canva.com)**: Canva is a graphic design platform that Bot Studio uses to create visually appealing and professional-looking graphics for social media, marketing materials, and more.
 - **[GitHub](https://github.com)**: GitHub is a code hosting platform that Bot Studio uses for version control and collaboration on projects. It also provides a platform for open-source contributions and community involvement.
+- **[Freepik](https://www.freepik.com)**: Freepik is a website that provides free and premium graphic resources for designers. Bot Studio uses Freepik to find high-quality images, icons, and illustrations for various projects.
