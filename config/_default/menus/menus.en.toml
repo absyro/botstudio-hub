@@ -27,6 +27,11 @@
   weight = 10
 
 [[footer]]
-  name = "Robot Maker"
-  url = "https://www.botstudioo.com"
+  name = "Documentation"
+  url = "/docs/"
   weight = 20
+
+[[footer]]
+  name = "Weblog"
+  url = "/blog/"
+  weight = 30
