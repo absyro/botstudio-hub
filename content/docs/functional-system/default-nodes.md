@@ -69,6 +69,6 @@ Python, with its simplicity and versatility, is a programming language that can 
 - `get_global_variables`: This function retrieves a list of all available global variables in JSON format.
 - `get_inputs`: This function returns an array containing all connected JSON input output values. It returns an array because Python nodes can have multiple connected JSON inputs.
 
-{{< callout context="caution" >}}
-Python nodes are presently in an experimental phase and are subject to potential changes in the future.
+{{< callout context="note" >}}
+Python nodes have a memory limit of 20 MB. If the code process exceeds this limit, it will terminate without producing any results. Additionally, if there are syntax errors, bugs, or resource limitations in the code, the result will be the default outcome, with no outputs or global variables generated for the next node.
 {{< /callout >}}
