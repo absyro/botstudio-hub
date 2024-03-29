@@ -58,9 +58,8 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - **[Markdown](https://www.markdownguide.org)**: Markdown is a lightweight markup language used for creating formatted text documents. It is often used in documentation and README files.
 - **[YAML](https://yaml.org)**: YAML is a human-readable data serialization language often used for configuration files and in applications that require structured data.
 - **[JSON](https://www.json.org)**: JSON (JavaScript Object Notation) is a lightweight data interchange format commonly used for web APIs and configuration files.
-- **[HTML](https://www.w3.org/html)**: HTML (Hypertext Markup Language) is the standard markup language used for creating web pages.
-- **[CSS](https://www.w3.org/Style/CSS)**: CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.
 - **[TOML](https://toml.io/en)**: TOML (Tom's Obvious, Minimal Language) is a minimal configuration file format that aims to be easy to read and write.
+- **[Go](https://go.dev)**: Go is the programming language used to develop Bot Studio. It is fast, efficient, and has a large community for support.
 
 ### Libraries and Frameworks
 
@@ -91,7 +90,6 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 
 - **[Hugo](https://gohugo.io)**: Hugo is a static site generator used for creating the Bot Studio hub. It allows for easy organization and customization of content.
 - **[GitHub Pages](https://pages.github.com)**: GitHub Pages is used to host the Bot Studio hub. It integrates seamlessly with Hugo and allows for easy updates and version control.
-- **[Go](https://go.dev)**: Go is the programming language used to develop Bot Studio. It is fast, efficient, and has a large community for support.
 - **[Git](https://git-scm.com)**: Git is used for version control and collaboration on the Bot Studio codebase. It allows for easy tracking of changes and merging of code from multiple contributors.
 - **[VS Code](https://code.visualstudio.com)**: Visual Studio Code is the preferred code editor for Bot Studio development. It has a wide range of features and extensions that make coding easier and more efficient.
 - **[GitHub Handler](https://github.com/amirfarzamnia/github-handler)**: GitHub Handler uses GitHub's official webhooks. Each time a modification is made to your GitHub repository, GitHub dispatches a webhook request to the server where the GitHub Handler operates. The GitHub Handler then processes the incoming webhook and carries out your specified commands to manage alterations and events within your GitHub repositories.

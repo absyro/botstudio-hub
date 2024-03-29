@@ -104,7 +104,7 @@ After including all parameters, you can successfully create a node. You can use 
 
 The comments array consists of all comments within the editor. This value is optional and doesn't affect the bot's execution process on the server. It's only used for the drag-and-drop editor to clarify the functional system. Here is how a comment value should look like:
 
-- **text**: The comment's text
+- **text**: The comment's text.
 - **position**: Comment's position within the editor area.
 - **links**: The nodes that this comment is linked to.
 - **type**: Type of comment. It can be an "inline" comment or a "frame" comment.

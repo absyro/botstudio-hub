@@ -54,11 +54,11 @@ The JSON Extractor node extracts values from JSON data and converts them into gl
 }
 ```
 
-You can use the JSON Extractor node to extract the value of “name” (which is “John”) and set it as a global variable. This way, you can use this value in other parts of your bot system without having to write any additional code. This makes managing and manipulating data in your bot more efficient and user-friendly.
+You can use the JSON Extractor node to extract the value of "name" (which is "John") and set it as a global variable. This way, you can use this value in other parts of your bot system without having to write any additional code. This makes managing and manipulating data in your bot more efficient and user-friendly.
 
 ## API Request
 
-The API Request node allows you to send API requests to a specified address and receive the response as a JSON object. If the response is successful (or in programming terms, if it returns an ‘OK’ status), then the standard action output is executed. Conversely, if there’s an error, the error output is triggered. You can use the received JSON object regardless of the outcome—success or failure.
+The API Request node allows you to send API requests to a specified address and receive the response as a JSON object. You can use the received JSON object regardless of the outcome—success or failure.
 
 You can include all API parameters, including headers, body, cookies, etc., in JSON format using this node.
 

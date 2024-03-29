@@ -34,7 +34,7 @@ If the event is permitted to be read in Bot Studio, then Bot Studio will process
 
 1. Defining system's global variables based on the received event.
 2. Creating a new engine to handle the received event.
-3. Adding the event and chat type event to the bot's events history.
+3. Adding the event to the bot's events history.
 4. Registering the bot's functional system into the created engine.
 5. Calling the engine to process the received event and its data based on the functional system.
 

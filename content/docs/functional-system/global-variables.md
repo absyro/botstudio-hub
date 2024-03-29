@@ -40,6 +40,6 @@ You can't create new global variables outside of the functional system.
 
 ## Receiving The Global Variables List
 
-You can obtain a real-time list of all available global variables in your process using the `{global_variables}` variable, which returns a list of global variables along with their types (boolean, string, integer).
+You can obtain a real-time list of all available global variables in your process using the `{global_variables}` variable, which returns a list of global variables.
 
 You can also use coding nodes such as the "Python" node to create a list of global variables in a customized format you prefer.

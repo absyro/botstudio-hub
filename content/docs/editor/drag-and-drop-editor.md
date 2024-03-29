@@ -16,22 +16,22 @@ seo:
 
 Bot Studio's drag-and-drop editor simplifies the process of creating bots. Using a flowchart editor, you can connect nodes like puzzle pieces to create a fully functional bot.
 
-## Tools
-
+{{< details "Tools" >}}
 The drag-and-drop editor is designed to be simple yet effective. It provides tools such as an auto-update system, minimap, and AI bot maker. Each tool is designed to help you create your bots more easily and quickly, and to track down issues.
+{{< /details >}}
 
-## Issue Trackers
-
+{{< details "Issue Trackers" >}}
 The drag-and-drop editor automatically highlights all nodes that have issues. It tells you exactly where the issue is located and how you can fix it.
+{{< /details >}}
 
-## Anti-Malware
-
+{{< details "Anti-Malware" >}}
 The drag-and-drop editor includes an anti-malware system, which helps you maintain a more secure space. For example, when you import a new data file, this system will check for any malicious content within the imported file.
+{{< /details >}}
 
-## Track Hidden Data
-
+{{< details "Track Hidden Data" >}}
 If a node contains data that is not rendered by the editor's default controllers, then the editor notifies you about the hidden data. This helps you maintain a more secure environment.
+{{< /details >}}
 
-## AI Assistants
-
+{{< details "AI Assistants" >}}
 The drag-and-drop editor includes AI assistants that help you manage and create bots.
+{{< /details >}}
