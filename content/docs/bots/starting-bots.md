@@ -16,7 +16,7 @@ seo:
 
 In Bot Studio, bots are activated based on server instructions. For instance, when the server restarts, it activates all bots that are not set to "offline" mode. Similarly, a bot is activated when you turn it "On" or create it.
 
-## Bot Startup Process
+#### Bot Startup Process
 
 Each bot, depending on its system, is designed to start differently. For instance, Telegram bots use [webhooks](https://www.redhat.com/en/topics/automation/what-is-a-webhook), while Discord bots use [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API).
 
@@ -24,7 +24,7 @@ Bot Studio initiates each bot's client based on its startup method. Once initiat
 
 Upon activating the bot's client in Bot Studio, the necessary event listeners are deployed to listen to specific events. The bot then handles these incoming events.
 
-## Handling Invalid Keys
+#### Handling Invalid Keys
 
 If a bot uses an invalid or expired key (such as a Telegram token, Discord token, WhatsApp session, etc.), Bot Studio destroys the client, sets the bot status to offline, and notifies the user about the invalid key.
 
@@ -32,7 +32,7 @@ If a bot uses an invalid or expired key (such as a Telegram token, Discord token
 This handler only works when starting the bot, not when the bot has started and then the key has been modified. Bots with invalid keys will never get started.
 {{< /callout >}}
 
-## Client Restart Policy
+#### Client Restart Policy
 
 By default, Bot Studio does not automatically restart clients as this can lead to unnecessary resource usage.
 
@@ -56,6 +56,6 @@ Even node issues or a robot's functional system's issues can't destroy or restar
 
 When starting a client, if the client is already running, it will be destroyed. The same clients can't be activated at the same time.
 
-## Automatic Deactivation of Bots
+#### Automatic Deactivation of Bots
 
 If a bot has no activity for a long time, it will automatically be turned off. While Bot Studio won't delete any bots that are inactive for a long time, it will delete accounts that are not verified and inactive for a long time. Deleting an account means removing all bots within that account.

@@ -16,7 +16,7 @@ seo:
 
 Creating a bot using Bot Studio is straightforward. You just need to fill in some basic configurations, and then you can create your bot. Here's how you can create a bot:
 
-## Telegram Bot
+#### Telegram Bot
 
 1. Click on the "Create Bot" button on the sidebar of the dashboard page.
 2. Select the Telegram platform and click on the "Next" button.
@@ -33,7 +33,7 @@ To get a [@BotFather](https://t.me/BotFather) token:
 When creating Telegram bots for a Telegram channel, the bot must have the capability to read events. For instance, it should be able to process message events and message contents to respond to messages or manage groups to perform tasks such as changing profile pictures.
 {{< /callout >}}
 
-## Discord Bot
+#### Discord Bot
 
 1. Click on the "Create Bot" button on the sidebar of the dashboard page.
 2. Select the Discord platform and click on the "Next" button.
@@ -50,7 +50,7 @@ To get a [Discord Developer Portal](https://discord.com/developers/applications)
 When adding a Discord bot to your channel, it must have the ability to read events and messages. For instance, it needs to be able to read messages to respond to message events or to access message content for certain features. It's advisable to grant your bot access to all necessary features.
 {{< /callout >}}
 
-## WhatsApp Bot
+#### WhatsApp Bot
 
 1. Click on the "Create Bot" button on the sidebar of the dashboard page.
 2. Select the WhatsApp platform and click on the "Next" button.
@@ -61,7 +61,7 @@ After filling in the configuration, read Bot Studio's "Terms & Conditions". If y
 
 If the bot was successfully created, you'll be redirected to the dashboard and be able to manage your bot from the "Bots" sub-menu. If you face any issues, you'll see a notification about the issue cause.
 
-## Additional Resources
+#### Additional Resources
 
 - [How to create a new Telegram bot](https://core.telegram.org/bots/features#botfather)
 - [How to create a new Discord bot](https://discord.com/developers/docs/quick-start/getting-started)
