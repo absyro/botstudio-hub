@@ -5,7 +5,7 @@ summary: ""
 date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
-weight: 320
+weight: 400
 toc: false
 seo:
   title: "Bot Studio Docs - Technology"
