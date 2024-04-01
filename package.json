@@ -10,7 +10,7 @@
     "format": "prettier layouts config content assets -w -c"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@fullhuman/postcss-purgecss": "^6.0.0",
     "@hyas/doks-core": "^1.4.1",
     "@hyas/images": "^3.1.0",
     "@hyas/inline-svg": "^1.0.5",
