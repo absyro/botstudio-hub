@@ -12,6 +12,15 @@ seo:
   description: "The Bot Studio's photo gallery features all images related to the Bot Studio bot maker and Bot Studio hub. Click here to see our fantastic images!"
   canonical: "https://www.botstudioo.com"
   noindex: false
+images:
+  - "botstudio-cover.png"
+  - "botstudio-discord-bots.png"
+  - "botstudio-slack-bots.png"
+  - "botstudio-telegram-bots.png"
+  - "botstudio-whatsapp-bots.png"
+  - "botstudio-youtube-1.png"
+  - "botstudio-youtube-2.png"
+  - "botstudio-youtube-logo.png"
 ---
 
 ---
