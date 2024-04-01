@@ -1,6 +1,7 @@
 code,
-.callout {
-    border-radius: 0.2rem;
+.callout,
+#toTop {
+    border-radius: 0.25rem !important;
 }
 
 p,
@@ -24,8 +25,4 @@ figcaption {
 
 .navbar {
     border-bottom: 1px solid var(--bs-border-color) !important;
-}
-
-#toTop {
-    border-radius: 0.25rem !important;
 }
