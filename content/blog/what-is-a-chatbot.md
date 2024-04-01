@@ -16,6 +16,8 @@ seo:
   description: "Have you ever heard about chatbots or worked with one? This blog tells you what a chatbot really is, how it works, and how to create your own."
   canonical: "https://www.botstudioo.com"
   noindex: false
+images:
+  - "chatbot.svg"
 ---
 
 {{< inline-svg src="svgs/chatbot.svg" class="svg-inline-custom" >}}
