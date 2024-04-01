@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "Discover Bot Studio's privacy policy and gain deeper insights into our practices to ensure your data security and privacy."
+description: ""
 summary: ""
 date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z

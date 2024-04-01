@@ -34,3 +34,8 @@
   name = "Weblog"
   url = "/blog/"
   weight = 30
+
+[[footer]]
+  name = "Photo Gallery"
+  url = "/gallery/"
+  weight = 40
