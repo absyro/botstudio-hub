@@ -28,3 +28,11 @@ figcaption {
     font-style: normal;
     font-size: small;
 }
+
+.navbar {
+    border-bottom: 1px solid var(--bs-border-color) !important;
+}
+
+#toTop {
+    border-radius: 0.25rem !important;
+}
