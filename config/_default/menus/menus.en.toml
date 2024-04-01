@@ -1,11 +1,11 @@
 [[main]]
   name = "Docs"
-  url = "/docs/"
+  url = "/docs"
   weight = 10
 
 [[main]]
   name = "Blog"
-  url = "/blog/"
+  url = "/blog"
   weight = 20
 
 [[social]]
@@ -22,20 +22,20 @@
 
 [[footer]]
   name = "Privacy Policy"
-  url = "/privacy-policy/"
+  url = "/privacy-policy"
   weight = 10
 
 [[footer]]
   name = "Documentation"
-  url = "/docs/"
+  url = "/docs"
   weight = 20
 
 [[footer]]
   name = "Weblog"
-  url = "/blog/"
+  url = "/blog"
   weight = 30
 
 [[footer]]
   name = "Photo Gallery"
-  url = "/gallery/"
+  url = "/gallery"
   weight = 40
