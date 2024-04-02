@@ -1,11 +1,12 @@
 :root {
     --bs-border-color: #23262f;
+    --bs-border-radius: 0.25rem;
 }
 
 code,
 .callout,
 #toTop {
-    border-radius: 0.25rem !important;
+    border-radius: var(--bs-border-radius) !important;
 }
 
 p,
