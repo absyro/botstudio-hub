@@ -26,16 +26,11 @@
   weight = 10
 
 [[footer]]
-  name = "Documentation"
-  url = "/docs"
+  name = "Terms of Use"
+  url = "/terms-of-use"
   weight = 20
-
-[[footer]]
-  name = "Weblog"
-  url = "/blog"
-  weight = 30
 
 [[footer]]
   name = "Photo Gallery"
   url = "/gallery"
-  weight = 40
+  weight = 30

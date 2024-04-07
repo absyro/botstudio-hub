@@ -18,7 +18,7 @@ In Bot Studio, we have certain nodes that are only accessible through specific p
 
 ---
 
-#### Telegram Nodes
+## Telegram Nodes
 
 Bot Studio leverages the official [Telegram API endpoints](https://core.telegram.org/bots/api) to manage requests. A comprehensive list detailing the workings of Telegram nodes and how to utilize their options can be found at [this link](https://core.telegram.org/bots/api#available-methods).
 
@@ -26,17 +26,17 @@ While Bot Studio encompasses nearly all Telegram endpoint methods, there are a f
 
 ---
 
-#### Discord Nodes
+## Discord Nodes
 
 Bot Studio utilizes the official [Discord API](https://discord.com/developers/docs) to manage bot functionality. Each Discord node in Bot Studio has its unique feature, and all of them use an original Discord API endpoint.
 
-##### Channel Nodes
+### Channel Nodes
 
 For channel nodes, all nodes associated with channels in Bot Studio are powered by Discord’s [channel endpoints](https://discord.com/developers/docs/resources/channel). You can access a comprehensive list of all these endpoints through the official Discord API documentation. This will provide you with detailed information about each endpoint and how it can be used in your bot development process.
 
 ---
 
-#### WhatsApp Nodes
+## WhatsApp Nodes
 
 In Bot Studio, WhatsApp bots use the unofficial WhatsApp API, which is powered by the [WhatsApp Web JS](https://wwebjs.dev) library. You can't send API requests to any specific endpoints to use these nodes.
 

@@ -16,17 +16,17 @@ seo:
 
 At Bot Studio, we simplify the process of creating bots by using visual scripting. This method involves elements called nodes. By strategically connecting these nodes, you can build a fully functional bot system. Nodes fall into two categories:
 
-#### Default Nodes
+## Default Nodes
 
 Default nodes are versatile and can be used across various platforms. Whether you're developing a bot for WhatsApp, Telegram, or any other platform, you can incorporate a default node into your system.
 
-#### Platform-Specific Nodes
+## Platform-Specific Nodes
 
 These nodes are designed for specific platforms. For example, you can use the "Send Message" node for Telegram bots, but this won't work for a Discord bot.
 
 ---
 
-#### Sockets: The Connectors of Nodes
+## Sockets: The Connectors of Nodes
 
 All nodes come with a default socket known as the "Action" socket. By linking the action sockets of different nodes, your bot can determine the sequence of operations to perform after the current node.
 
@@ -40,7 +40,7 @@ You might be able to connect some sockets to other nodes more than once. In most
 
 ---
 
-#### Node Executions: Turning Visual Data into Action
+## Node Executions: Turning Visual Data into Action
 
 Nodes essentially represent a visual form of data. Bot Studio's servers are engineered to transform this data into operational scripts.
 

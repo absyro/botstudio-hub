@@ -18,11 +18,11 @@ This document provides an overview of the technologies and libraries used in our
 
 ---
 
-#### Frontend Technologies
+## Frontend Technologies
 
 Bot Studio uses SSR (Server Side Rendering) method which allows for faster initial loading and better SEO optimization. The frontend of our website is built using the following technologies:
 
-##### JavaScript Libraries
+### JavaScript Libraries
 
 - **[Bootstrap](https://getbootstrap.com)**: Bootstrap is a popular CSS framework used for creating responsive and mobile-first websites. It provides a wide range of pre-built components and utilities to make designing easier.
 - **[jQuery](https://jquery.com)**: jQuery is a JavaScript library that simplifies HTML document traversal, event handling, animation, and Ajax interactions for rapid web development.
@@ -39,7 +39,7 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - **[Ace Editor](https://ace.c9.io)**: Ace Editor is a JavaScript library used for creating code editors on web pages. It supports syntax highlighting, auto-completion, and other features commonly found in code editors.
 - **[Rete.js](https://retejs.org)**: Rete.js is a JavaScript library used for creating visual programming interfaces on web pages. It allows users to create and connect nodes to build complex logic and workflows.
 
-##### CSS Libraries
+### CSS Libraries
 
 - **[Animate](https://animate.style)**: Animate is a CSS library used for adding animations to web pages. It provides a simple and lightweight way to add visual effects without the need for complex JavaScript code.
 - **[Bootstrap](https://getbootstrap.com)**: Bootstrap is a popular CSS framework used for creating responsive and mobile-friendly websites. It includes a wide range of pre-designed components and styles, making it easy to create professional-looking websites.
@@ -47,9 +47,9 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 
 ---
 
-#### Backend Technologies
+## Backend Technologies
 
-##### Programming Languages
+### Programming Languages
 
 - **[JavaScript](https://www.javascript.com)**: JavaScript is a popular programming language used for creating dynamic and interactive web pages. It is the primary language used for client-side scripting, but it can also be used on the server-side with Node.js.
 - **[TypeScript](https://www.typescriptlang.org)**: TypeScript is a superset of JavaScript that adds static typing and other features to the language. It is often used in larger projects to help catch errors and improve code organization.
@@ -61,7 +61,7 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - **[TOML](https://toml.io/en)**: TOML (Tom's Obvious, Minimal Language) is a minimal configuration file format that aims to be easy to read and write.
 - **[Go](https://go.dev)**: Go is the programming language used to develop Bot Studio. It is fast, efficient, and has a large community for support.
 
-##### Libraries and Frameworks
+### Libraries and Frameworks
 
 - **[Node.js](https://nodejs.org)**: Node.js is a popular JavaScript runtime environment that allows developers to run JavaScript code on the server-side.
 - **[Express](https://expressjs.com)**: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
@@ -86,7 +86,7 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 
 ---
 
-#### Other Tools
+## Other Tools
 
 - **[Hugo](https://gohugo.io)**: Hugo is a static site generator used for creating the Bot Studio hub. It allows for easy organization and customization of content.
 - **[GitHub Pages](https://pages.github.com)**: GitHub Pages is used to host the Bot Studio hub. It integrates seamlessly with Hugo and allows for easy updates and version control.

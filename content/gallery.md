@@ -29,7 +29,7 @@ All images on this page are the property of Bot Studio and were designed by the 
 
 ---
 
-#### Bot Studio Robots
+## Bot Studio Robots
 
 <div class="container p-0">
   <div class="row row-cols-1 row-cols-md-4 g-3">
@@ -56,7 +56,7 @@ All images on this page are the property of Bot Studio and were designed by the 
   </div>
 </div>
 
-#### Bot Studio SEO
+## Bot Studio SEO
 
 <div class="container p-0">
   <div class="row row-cols-1 row-cols-md-4 g-3">
@@ -68,7 +68,7 @@ All images on this page are the property of Bot Studio and were designed by the 
   </div>
 </div>
 
-#### Bot Studio YouTube
+## Bot Studio YouTube
 
 <div class="container p-0">
   <div class="row row-cols-1 row-cols-md-4 g-3">

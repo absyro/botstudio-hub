@@ -16,11 +16,11 @@ seo:
 
 Bot Studio's visual editor allows you to create bots using JSON language. Bot Studio heavily uses JSON to operate its system. The visual editor lets you write custom node data, custom nodes, and customize anything within your functional data.
 
-#### Data Verification
+## Data Verification
 
 The visual editor comes with a data verifier system that checks if your system is functional. You can use this system to debug your system when you are coding, making coding easier and more enjoyable.
 
-#### How It Works?
+## How It Works?
 
 Here is an example of functional data written in JSON:
 
@@ -86,7 +86,7 @@ Here is an example of functional data written in JSON:
 
 A functional system consists of two array objects:
 
-##### Nodes (important)
+### Nodes (important)
 
 The nodes array contains all nodes inside the editor. This object is important and must be included in your functional system. You can include all nodes inside this object. Here is how you must include a node data:
 
@@ -100,7 +100,7 @@ The nodes array contains all nodes inside the editor. This object is important a
 
 After including all parameters, you can successfully create a node. You can use this pattern to create all the nodes within the visual editor.
 
-##### Comments
+### Comments
 
 The comments array consists of all comments within the editor. This value is optional and doesn't affect the bot's execution process on the server. It's only used for the drag-and-drop editor to clarify the functional system. Here is how a comment value should look like:
 
