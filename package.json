@@ -5,7 +5,7 @@
   "author": "Absyro Company",
   "license": "MIT",
   "scripts": {
-    "dev": "hugo server --disableFastRender --noHTTPCache",
+    "dev": "hugo server --disableFastRender --noHTTPCache --gc --noBuildLock",
     "build": "hugo --minify --gc",
     "format": "prettier layouts config content assets -w -c"
   },
