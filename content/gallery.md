@@ -23,12 +23,6 @@ images:
   - "botstudio-youtube-logo.png"
 ---
 
----
-
-All images on this page are the property of Bot Studio and were designed by the Bot Studio development team. You may utilize these images for commercial purposes by properly crediting the source.
-
----
-
 ## Bot Studio Robots
 
 <div class="container p-0">
@@ -89,5 +83,3 @@ All images on this page are the property of Bot Studio and were designed by the 
     >}}
   </div>
 </div>
-
----
