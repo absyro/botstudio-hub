@@ -8,7 +8,7 @@ draft: false
 type: "contact"
 seo:
   title: "Bot Studio - Contact Us"
-  description: "Connect with us through email, social media, or our support center. Reach out for assistance, feedback, or inquiries about our services."
+  description: "Contact Bot Studio's support team using this page. Click here to learn more."
   canonical: "https://www.botstudioo.com"
   noindex: false
 ---
