@@ -35,7 +35,6 @@
   url = "/contact-us"
   weight = 30
 
-
 [[footer]]
   name = "Photo Gallery"
   url = "/gallery"
