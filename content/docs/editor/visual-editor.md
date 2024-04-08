@@ -12,9 +12,13 @@ seo:
   description: "In this documentation, you'll learn how you can use Bot Studio's visual editor to create robots using the JSON language. Click here to learn more."
   canonical: "https://www.botstudioo.com"
   noindex: false
+images:
+  - "visual-editor.png"
 ---
 
 Bot Studio's visual editor allows you to create bots using JSON language. Bot Studio heavily uses JSON to operate its system. The visual editor lets you write custom node data, custom nodes, and customize anything within your functional data.
+
+{{< figure src="images/visual-editor.png" alt="This is Bot Studio's visual editor, which works using the JSON language." caption="This is Bot Studio's visual editor, which works using the JSON language." >}}
 
 ## Data Verification
 
