@@ -46,7 +46,3 @@ To the fullest extent permitted by law, Bot Studio shall not be liable for any d
 ## 8. Changes to Terms
 
 Bot Studio reserves the right to modify or replace these Terms at any time. It is your responsibility to review these Terms periodically for changes. Your continued use of the Service after any such changes constitutes acceptance of the modified Terms.
-
-## 9. Contact Us
-
-If you have any questions about these Terms, please contact us at the [contact us page](https://hub.botstudioo.com/contact-us).
