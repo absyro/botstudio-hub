@@ -50,5 +50,3 @@ Bot Studio reserves the right to modify or replace these Terms at any time. It i
 ## 9. Contact Us
 
 If you have any questions about these Terms, please contact us at the [contact us page](https://hub.botstudioo.com/contact-us).
-
-By accessing or using the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms.
