@@ -5,7 +5,8 @@
 
 code,
 .callout,
-#toTop {
+#toTop,
+figure img {
     border-radius: var(--bs-border-radius) !important;
 }
 
@@ -30,6 +31,17 @@ figcaption {
 
 .navbar {
     border-bottom: 1px solid var(--bs-border-color) !important;
+}
+
+figure {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+figure img {
+    border: 1px solid var(--bs-border-color);
+}
+figure figcaption {
+    text-align: center;
 }
 
 h2 {
