@@ -37,5 +37,5 @@
 
 [[footer]]
   name = "Photo Gallery"
-  url = "/gallery"
+  url = "/photo-gallery"
   weight = 40

@@ -83,6 +83,9 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - **[Nodemon](https://nodemon.io)**: Nodemon is a utility that monitors changes in your Node.js application and automatically restarts the server when changes are detected. This makes development and testing much easier, as you don't have to manually restart the server every time you make a change.
 - **[Build Manager](https://github.com/amirfarzamnia/buildm)**: Build Manager is a tool created by Absyro to automate the process of building and deploying Bot Studio applications. It handles tasks such as minifying code and bundling dependencies.
 - **[Prettier](https://prettier.io)**: Prettier is a code formatting tool that helps maintain consistent and readable code. It can be integrated into various editors and IDEs, making it easy to format your code with just a few clicks.
+- **[xss](https://www.npmjs.com/package/xss)**: xss is a module used to filter input from users to prevent XSS attacks.
+- **[response-time](https://www.npmjs.com/package/response-time)**: This module creates a middleware that records the response time for requests in HTTP servers.
+- **[@slack/web-api](https://slack.dev/node-slack-sdk/web-api)**: The @slack/web-api package contains a simple, convenient, and configurable HTTP client for making requests to Slack's Web API.
 
 ---
 
