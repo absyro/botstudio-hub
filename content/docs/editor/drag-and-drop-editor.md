@@ -12,9 +12,13 @@ seo:
   description: "In this documentation, you'll learn how you can create robots without coding using Bot Studio's drag-and-drop editor. Click here to learn more."
   canonical: "https://www.botstudioo.com"
   noindex: false
+images:
+  - "editor.png"
 ---
 
 Bot Studio's drag-and-drop editor simplifies the process of creating bots. Using a flowchart editor, you can connect nodes like puzzle pieces to create a fully functional bot.
+
+{{< figure src="images/editor.png" alt="This is Bot Studio's drag-and-drop editor." caption="This is Bot Studio's drag-and-drop editor." >}}
 
 {{< details "Tools" >}}
 The drag-and-drop editor is designed to be simple yet effective. It provides tools such as an auto-update system, minimap, and AI bot maker. Each tool is designed to help you create your bots more easily and quickly, and to track down issues.

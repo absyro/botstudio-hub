@@ -12,9 +12,13 @@ seo:
   description: "Bot Studio's robot systems use global variables, an easy-to-use variable manager system. Click here to learn more."
   canonical: "https://www.botstudioo.com"
   noindex: false
+images:
+  - "global-variables.png"
 ---
 
 In Bot Studio, global variables are universally accessible throughout the entire process. These variables are created once during the process and are discarded once the process ends.
+
+{{< figure src="images/global-variables.png" alt="A simple global variable." caption="A simple global variable." >}}
 
 ## Global Variables
 
