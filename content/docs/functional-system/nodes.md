@@ -12,6 +12,8 @@ seo:
   description: "In Bot Studio, nodes are like puzzle pieces. You piece them together to easily create your robots. Click here to learn more."
   canonical: "https://www.botstudioo.com"
   noindex: false
+images:
+  - "nodes.png"
 ---
 
 At Bot Studio, we simplify the process of creating bots by using visual scripting. This method involves elements called nodes. By strategically connecting these nodes, you can build a fully functional bot system. Nodes fall into two categories:
@@ -23,6 +25,8 @@ Default nodes are versatile and can be used across various platforms. Whether yo
 ## Platform-Specific Nodes
 
 These nodes are designed for specific platforms. For example, you can use the "Send Message" node for Telegram bots, but this won't work for a Discord bot.
+
+{{< figure src="images/nodes.png" alt="An image of a node and its parts." caption="An image of a node and its parts." >}}
 
 ---
 
