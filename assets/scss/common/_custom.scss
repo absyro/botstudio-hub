@@ -18,6 +18,23 @@ details {
     font-weight: normal;
 }
 
+ol {
+    list-style: none;
+    counter-reset: ol-counter;
+    padding-left: 0;
+}
+ol li::before {
+    content: counter(ol-counter) ". ";
+    counter-increment: ol-counter;
+}
+ul {
+    padding-left: 1.25rem;
+}
+ol li::before,
+ul li::marker {
+    color: var(--bs-tertiary-color);
+}
+
 @media (min-width: 1200px) {
     .docs-content {
         width: 80% !important;
