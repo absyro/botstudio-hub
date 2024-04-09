@@ -98,7 +98,7 @@ oauth_config:
     bot: ["app_mentions:read", "im:history", "bookmarks:read", "bookmarks:write", "calls:read", "calls:write", "canvases:read", "canvases:write", "channels:history", "channels:join", "channels:manage", "channels:read", "channels:write.invites", "channels:write.topic", "chat:write", "chat:write.customize", "chat:write.public", "commands", "conversations.connect:manage", "conversations.connect:read", "conversations.connect:write", "dnd:read", "emoji:read", "files:read", "files:write", "groups:history", "groups:read", "groups:write", "groups:write.invites", "groups:write.topic", "im:read", "im:write", "im:write.invites", "im:write.topic", "incoming-webhook", "links.embed:write", "links:read", "links:write", "metadata.message:read", "mpim:history", "mpim:read", "mpim:write", "mpim:write.invites", "mpim:write.topic", "pins:read", "pins:write", "reactions:read", "reactions:write", "reminders:read", "reminders:write", "remote_files:read", "remote_files:share", "remote_files:write", "team.billing:read", "team.preferences:read", "team:read", "usergroups:read", "usergroups:write", "users.profile:read", "users:read", "users:read.email", "users:write", "workflow.steps:execute"]
 settings:
   event_subscriptions:
-    request_url: https://webhook.botstudioo.com/slack_xxxx-xxxxxxxxxxxx-xxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    request_url: https://webhook.botstudioo.com/slack
     bot_events: ["app_home_opened", "app_mention", "app_uninstalled", "call_rejected", "channel_archive", "channel_created", "channel_deleted", "channel_history_changed", "channel_id_changed", "channel_left", "channel_rename", "channel_shared", "channel_unarchive", "channel_unshared", "dnd_updated_user", "email_domain_changed", "emoji_changed", "file_change", "file_created", "file_deleted", "file_public", "file_shared", "file_unshared", "grid_migration_finished", "grid_migration_started", "group_archive", "group_deleted", "group_history_changed", "group_left", "group_rename", "group_unarchive", "im_history_changed", "link_shared", "member_joined_channel", "member_left_channel", "message.channels", "message.groups", "message.im", "message.mpim", "pin_added", "pin_removed", "profile_opened", "reaction_added", "reaction_removed", "shared_channel_invite_accepted", "shared_channel_invite_approved", "shared_channel_invite_declined", "shared_channel_invite_received", "subteam_created", "subteam_members_changed", "subteam_updated", "team_access_granted", "team_access_revoked", "team_domain_change", "team_join", "team_rename", "tokens_revoked", "user_change", "user_huddle_changed", "user_profile_changed", "user_status_changed", "workflow_deleted", "workflow_published", "workflow_step_deleted", "workflow_step_execute", "workflow_unpublished"]
 ```
 
@@ -129,7 +129,7 @@ settings:
   },
   "settings": {
     "event_subscriptions": {
-      "request_url": "https://webhook.botstudioo.com/slack_xxxx-xxxxxxxxxxxx-xxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "request_url": "https://webhook.botstudioo.com/slack",
       "bot_events": ["app_home_opened", "app_mention", "app_uninstalled", "call_rejected", "channel_archive", "channel_created", "channel_deleted", "channel_history_changed", "channel_id_changed", "channel_left", "channel_rename", "channel_shared", "channel_unarchive", "channel_unshared", "dnd_updated_user", "email_domain_changed", "emoji_changed", "file_change", "file_created", "file_deleted", "file_public", "file_shared", "file_unshared", "grid_migration_finished", "grid_migration_started", "group_archive", "group_deleted", "group_history_changed", "group_left", "group_rename", "group_unarchive", "im_history_changed", "link_shared", "member_joined_channel", "member_left_channel", "message.channels", "message.groups", "message.im", "message.mpim", "pin_added", "pin_removed", "profile_opened", "reaction_added", "reaction_removed", "shared_channel_invite_accepted", "shared_channel_invite_approved", "shared_channel_invite_declined", "shared_channel_invite_received", "subteam_created", "subteam_members_changed", "subteam_updated", "team_access_granted", "team_access_revoked", "team_domain_change", "team_join", "team_rename", "tokens_revoked", "user_change", "user_huddle_changed", "user_profile_changed", "user_status_changed", "workflow_deleted", "workflow_published", "workflow_step_deleted", "workflow_step_execute", "workflow_unpublished"]
     }
   }
@@ -153,9 +153,11 @@ Please note that the manifest file provided here will grant all permissions to y
 
 After completing these steps, your robot will be created in Bot Studio. Now there are a few other steps to complete:
 
-1. Go back to your Slack application, and in the "Features" group, click on "Event Subscriptions".
-2. The current webhook URL for your app is set to `https://webhook.botstudioo.com/slack_xxxx-xxxxxxxxxxxx-xxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx` and as you can see, it says this URL did not respond with the expected value. Replace the `xxxx-xxxxxxxxxxxx-xxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx` in the URL with your Slack application token. It must look something like this: `https://webhook.botstudioo.com/slack_xoxb-6919313780576-6929772751746-ulyfIklruDBDu3B20lxmvhzx`.
-3. Then, as you can see, the URL has been verified successfully. Click on the "Save Changes" button.
+1. Return to Bot Studio's dashboard and click on your robot from the "Robots" submenu.
+2. Copy the value of "webhook address", which looks like this: `https://webhook.botstudioo.com/slack_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.
+3. Go back to your Slack application, and in the "Features" group, click on "Event Subscriptions".
+4. Paste the webhook URL address you copied from the bot's dashboard into this.
+5. Then, as you can see, the URL has been verified successfully. Click on the "Save Changes" button.
 
 Now you must set a signature for your bot requests. This step is optional, but if you want to secure your robot, you have to do this:
 
