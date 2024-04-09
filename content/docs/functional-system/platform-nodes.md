@@ -43,3 +43,9 @@ In Bot Studio, WhatsApp bots use the unofficial WhatsApp API, which is powered b
 {{< callout context="caution" >}}
 WhatsApp bots are in BETA and will be fully supported soon.
 {{< /callout >}}
+
+---
+
+## Slack Nodes
+
+Bot Studio utilizes the official [Slack API endpoints](https://api.slack.com/methods) to control Slack robot features. Each node on the Slack platform corresponds to a specific Slack endpoint. For instance, the chat nodes in Slack use [these endpoints](https://api.slack.com/methods?filter=chat). You can explore more about Slack nodes in Bot Studio by visiting the official [Slack API endpoints](https://api.slack.com/methods) page.
