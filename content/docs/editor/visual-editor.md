@@ -94,13 +94,13 @@ A functional system consists of two array objects:
 
 The nodes array contains all nodes inside the editor. This object is important and must be included in your functional system. You can include all nodes inside this object. Here is how you must include a node data:
 
-- **id**: The ID of the node.
-- **data**: The node data is required for some nodes which use inputs, such as "Match" node and "API Request" node.
-- **inputs**: The input connections of the node.
-- **outputs**: The output connections of the node.
-- **position**: Consists of 2 numbers, X and Y, indicating the position of the node within the editor area. (Default position is 0 and 0).
-- **name**: The node name is the component name that this node is using.
-- **executed** (Optional): How many times this node has been executed by executers. Used for analyzing nodes in analysis mode.
+- id: The ID of the node.
+- data: The node data is required for some nodes which use inputs, such as "Match" node and "API Request" node.
+- inputs: The input connections of the node.
+- outputs: The output connections of the node.
+- position: Consists of 2 numbers, X and Y, indicating the position of the node within the editor area. (Default position is 0).
+- name: The node name is the component name that this node is using.
+- executed (Optional): How many times this node has been executed by executers. Used for analyzing nodes in analysis mode.
 
 After including all parameters, you can successfully create a node. You can use this pattern to create all the nodes within the visual editor.
 
@@ -108,10 +108,10 @@ After including all parameters, you can successfully create a node. You can use 
 
 The comments array consists of all comments within the editor. This value is optional and doesn't affect the bot's execution process on the server. It's only used for the drag-and-drop editor to clarify the functional system. Here is how a comment value should look like:
 
-- **text**: The comment's text.
-- **position**: Comment's position within the editor area.
-- **links**: The nodes that this comment is linked to.
-- **type**: Type of comment. It can be an "inline" comment or a "frame" comment.
+- text: The comment's text.
+- position: Comment's position within the editor area.
+- links: The nodes that this comment is linked to.
+- type: Type of comment. It can be an "inline" comment or a "frame" comment.
 
 ---
 

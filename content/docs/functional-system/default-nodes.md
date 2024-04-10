@@ -20,11 +20,11 @@ In Bot Studio, we have certain nodes that can be used across all platforms. Here
 
 The match node checks if the provided inputs match each other based on certain rules. There are five rules available:
 
-- **Match**: Checks if the inputs are an exact match.
-- **Start**: Checks if the input starts with the match input.
-- **End**: Checks if the input ends with the match input.
-- **Includes**: Checks if the input contains the match input.
-- **RegExp**: Checks if the inputs match in the case of regular expressions.
+- Match: Checks if the inputs are an exact match.
+- Start: Checks if the input starts with the match input.
+- End: Checks if the input ends with the match input.
+- Includes: Checks if the input contains the match input.
+- RegExp: Checks if the inputs match in the case of regular expressions.
 
 ## Delay
 
