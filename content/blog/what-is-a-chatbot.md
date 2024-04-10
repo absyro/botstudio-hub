@@ -30,9 +30,9 @@ Chatbots simulate human conversation by understanding and responding to text or 
 
 There are two types of chatbots:
 
-1. **Rule-Based Chatbots**: These chatbots are programmed to respond to specific commands. They cannot understand inputs that deviate from these commands.
+1. Rule-Based Chatbots: These chatbots are programmed to respond to specific commands. They cannot understand inputs that deviate from these commands.
 
-2. **AI-Based Chatbots**: These chatbots use AI, ML, and NLP to understand the context and intent of user inputs, allowing them to generate more natural and complex responses.
+2. AI-Based Chatbots: These chatbots use AI, ML, and NLP to understand the context and intent of user inputs, allowing them to generate more natural and complex responses.
 
 ## How to Use Chatbots?
 

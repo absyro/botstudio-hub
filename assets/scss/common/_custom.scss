@@ -19,19 +19,23 @@ details {
 }
 
 ol {
+    padding-left: 1rem;
+}
+
+.docs-content ol {
     list-style: none;
     counter-reset: ol-counter;
     padding-left: 0;
 }
-ol li::before {
+.docs-content ol li::before {
     content: counter(ol-counter) ". ";
     counter-increment: ol-counter;
 }
-ul {
+.docs-content ul {
     padding-left: 1.25rem;
 }
-ol li::before,
-ul li::marker {
+.docs-content ol li::before,
+.docs-content ul li::marker {
     color: var(--bs-tertiary-color);
 }
 
