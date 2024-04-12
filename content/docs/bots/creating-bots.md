@@ -181,6 +181,18 @@ If you wish to send slash commands and direct messages to your robot, you can op
 1. In the "Features" group, click on "App Home".
 2. Scroll down to the "Show Tabs" section and make sure the "Allow users to send Slash commands and messages from the messages tab" option is checked.
 
+### Managing event subscriptions for your Slack bot
+
+You need to inform Slack about the events you want your robot to receive. While you can create an event listener node on Bot Studio, it won't be able to notify you until you subscribe to that event within Slack.
+
+To manage your robot's subscriptions to Slack events, navigate to the "Event Subscriptions" page under the "Features" tab. Scroll down to the "Subscribe to bot events" section, where you can add custom event listeners. From there, you can select and add the events you wish to receive from Slack and handle them using Bot Studio.
+
+### Managing your Slack bot permissions
+
+For security reasons, each Slack token has access to a specific set of permissions. For instance, if your robot intends to send a message to a chat, it must be granted permission to send chat messages.
+
+To manage your Slack robot's permissions, navigate to the "OAuth & Permissions" page under the "Features" tab. Scroll down to the "Scopes" section, where you can manage and customize the permissions your robot possesses.
+
 ## Additional Resources
 
 - [How to create a new Telegram bot](https://core.telegram.org/bots/features#botfather)
