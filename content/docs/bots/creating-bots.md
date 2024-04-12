@@ -139,17 +139,17 @@ settings:
 {{< /details >}}
 
 {{< callout context="caution" >}}
-Please note that the manifest file provided here will grant all permissions to your robot. Including all these bot scopes and events in your application may result in excessive resource usage and compromise privacy and security. We've included all of them in this list for beginners to streamline the process, sparing them from adding each one individually. For now, you can retain them, and after creating your robot, you can remove any unnecessary ones later on.
+Please note that these manifest files will grant all permissions to your Slack bot. You can develop your robots first and then remove any unnecessary bot scopes later.
 {{< /callout >}}
 
 - Click on the "Next" button after entering the custom manifest.
 - Review the summary and make sure everything is okay. Then click on "Create" to create your application.
 - After your application has been created, you'll be redirected to your app page. Click on the "Install to Workspace" button and install this app.
-- In the "Features" group, click on "App Home".
-- Scroll down to the "Show Tabs" section and make sure the "Allow users to send Slash commands and messages from the messages tab" option is checked.
 - In the "Features" group, click on "OAuth & Permissions".
 - Scroll to see a section named "OAuth Tokens for Your Workspace".
 - Copy the "Bot User OAuth Token" and paste it as the "Slack Application Token" in Bot Studio, and create your bot.
+
+### Setting the webhook address for your Slack bot
 
 After completing these steps, your robot will be created in Bot Studio. Now there are a few other steps to complete:
 
@@ -159,7 +159,9 @@ After completing these steps, your robot will be created in Bot Studio. Now ther
 4. Paste the webhook URL address you copied from the bot's dashboard into this.
 5. Then, as you can see, the URL has been verified successfully. Click on the "Save Changes" button.
 
-Now you must set a signature for your bot requests. This step is optional, but if you want to secure your robot, you have to do this:
+### Setting the signature for your Slack bot
+
+You must set a signature for your bot requests. This step is optional, but if you want to secure your robot, you have to do this:
 
 1. In the "Settings" group, click on "Basic Information".
 2. Scroll down to the "App Credentials" section.
@@ -168,11 +170,12 @@ Now you must set a signature for your bot requests. This step is optional, but i
 5. Click on the "Options" button at the top of your robot page and click on the "Change Signature" option.
 6. Paste the signature into the input and click on the "Change" button.
 
-We understand that this journey has been lengthy, but your Slack bot is now ready! You can access it through your Slack workspace and customize it using Bot Studio. If you encounter any issues while creating your Slack bot, please don't hesitate to contact our support team.
+### Enabling slash commands and sending direct messages to your Slack bot
 
-{{< callout context="note" >}}
-We've followed these steps to craft a fully functional Slack chatbot, designed to avoid any future issues. You can customize this configuration within your Slack application at any time you wish.
-{{< /callout >}}
+If you wish to send slash commands and direct messages to your robot, you can optionally follow the steps below:
+
+1. In the "Features" group, click on "App Home".
+2. Scroll down to the "Show Tabs" section and make sure the "Allow users to send Slash commands and messages from the messages tab" option is checked.
 
 ## Additional Resources
 
