@@ -149,6 +149,10 @@ Please note that these manifest files will grant all permissions to your Slack b
 - Scroll to see a section named "OAuth Tokens for Your Workspace".
 - Copy the "Bot User OAuth Token" and paste it as the "Slack Application Token" in Bot Studio, and create your bot.
 
+{{< callout context="note" >}}
+This manifest only includes message events. If you wish to use custom event listeners, such as the "Channel Left Event", you must navigate to the "Event Subscriptions" page under the "Features" tab. From there, scroll down to the "Subscribe to bot events" section, where you can add custom event listeners.
+{{< /callout >}}
+
 ### Setting the webhook address for your Slack bot
 
 After completing these steps, your robot will be created in Bot Studio. Now there are a few other steps to complete:
