@@ -4,6 +4,7 @@
   "description": "Bot Studio - Hub",
   "author": "Absyro Company",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "hugo server --disableFastRender --noHTTPCache --gc --noBuildLock",
     "build": "hugo --minify --gc",
