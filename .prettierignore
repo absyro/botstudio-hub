@@ -3,7 +3,7 @@
 *.png
 *.jp*g
 *.toml
-.*ignore
+*.*ignore
 *.svg
 *.xml
 LICENSE
