@@ -84,22 +84,22 @@ To get a [Slack Applications](https://api.slack.com/apps) token:
 
 ```yaml
 display_information:
-  name: Bot Studio
-  description: www.botstudioo.com
-  long_description: This robot was created using Bot Studio's no-code bot maker. Bot Studio is available at www.botstudioo.com. This information is an example of Bot Studio's Slack robots, so you can customize it as needed.
+  name: "Bot Studio"
+  description: "www.botstudioo.com"
+  long_description: "This robot was crafted using Bot Studio's no-code robot maker, available at www.botstudioo.com. The details provided serve as an illustration of Bot Studio's capabilities within Slack, and they can be tailored to suit your specific requirements."
 features:
   app_home:
     home_tab_enabled: true
     messages_tab_enabled: true
   bot_user:
-    display_name: Bot Studio
+    display_name: "Bot Studio"
 oauth_config:
   scopes:
     bot: ["app_mentions:read", "im:history", "bookmarks:read", "bookmarks:write", "calls:read", "calls:write", "canvases:read", "canvases:write", "channels:history", "channels:join", "channels:manage", "channels:read", "channels:write.invites", "channels:write.topic", "chat:write", "chat:write.customize", "chat:write.public", "commands", "conversations.connect:manage", "conversations.connect:read", "conversations.connect:write", "dnd:read", "emoji:read", "files:read", "files:write", "groups:history", "groups:read", "groups:write", "groups:write.invites", "groups:write.topic", "im:read", "im:write", "im:write.invites", "im:write.topic", "incoming-webhook", "links.embed:write", "links:read", "links:write", "metadata.message:read", "mpim:history", "mpim:read", "mpim:write", "mpim:write.invites", "mpim:write.topic", "pins:read", "pins:write", "reactions:read", "reactions:write", "reminders:read", "reminders:write", "remote_files:read", "remote_files:share", "remote_files:write", "team.billing:read", "team.preferences:read", "team:read", "usergroups:read", "usergroups:write", "users.profile:read", "users:read", "users:read.email", "users:write", "workflow.steps:execute"]
 settings:
   event_subscriptions:
     request_url: https://webhook.botstudioo.com/slack
-    bot_events: ["app_home_opened", "app_mention", "app_uninstalled", "call_rejected", "channel_archive", "channel_created", "channel_deleted", "channel_history_changed", "channel_id_changed", "channel_left", "channel_rename", "channel_shared", "channel_unarchive", "channel_unshared", "dnd_updated_user", "email_domain_changed", "emoji_changed", "file_change", "file_created", "file_deleted", "file_public", "file_shared", "file_unshared", "grid_migration_finished", "grid_migration_started", "group_archive", "group_deleted", "group_history_changed", "group_left", "group_rename", "group_unarchive", "im_history_changed", "link_shared", "member_joined_channel", "member_left_channel", "message.channels", "message.groups", "message.im", "message.mpim", "pin_added", "pin_removed", "profile_opened", "reaction_added", "reaction_removed", "shared_channel_invite_accepted", "shared_channel_invite_approved", "shared_channel_invite_declined", "shared_channel_invite_received", "subteam_created", "subteam_members_changed", "subteam_updated", "team_access_granted", "team_access_revoked", "team_domain_change", "team_join", "team_rename", "tokens_revoked", "user_change", "user_huddle_changed", "user_profile_changed", "user_status_changed", "workflow_deleted", "workflow_published", "workflow_step_deleted", "workflow_step_execute", "workflow_unpublished"]
+    bot_events: ["app_mention", "message.channels", "message.groups", "message.im", "message.mpim"]
 ```
 
 {{< /details >}}
@@ -111,7 +111,7 @@ settings:
   "display_information": {
     "name": "Bot Studio",
     "description": "www.botstudioo.com",
-    "long_description": "This robot was created using Bot Studio's no-code bot maker. Bot Studio is available at www.botstudioo.com. This information is an example of Bot Studio's Slack robots, so you can customize it as needed."
+    "long_description": "This robot was crafted using Bot Studio's no-code robot maker, available at www.botstudioo.com. The details provided serve as an illustration of Bot Studio's capabilities within Slack, and they can be tailored to suit your specific requirements."
   },
   "features": {
     "app_home": {
@@ -130,7 +130,7 @@ settings:
   "settings": {
     "event_subscriptions": {
       "request_url": "https://webhook.botstudioo.com/slack",
-      "bot_events": ["app_home_opened", "app_mention", "app_uninstalled", "call_rejected", "channel_archive", "channel_created", "channel_deleted", "channel_history_changed", "channel_id_changed", "channel_left", "channel_rename", "channel_shared", "channel_unarchive", "channel_unshared", "dnd_updated_user", "email_domain_changed", "emoji_changed", "file_change", "file_created", "file_deleted", "file_public", "file_shared", "file_unshared", "grid_migration_finished", "grid_migration_started", "group_archive", "group_deleted", "group_history_changed", "group_left", "group_rename", "group_unarchive", "im_history_changed", "link_shared", "member_joined_channel", "member_left_channel", "message.channels", "message.groups", "message.im", "message.mpim", "pin_added", "pin_removed", "profile_opened", "reaction_added", "reaction_removed", "shared_channel_invite_accepted", "shared_channel_invite_approved", "shared_channel_invite_declined", "shared_channel_invite_received", "subteam_created", "subteam_members_changed", "subteam_updated", "team_access_granted", "team_access_revoked", "team_domain_change", "team_join", "team_rename", "tokens_revoked", "user_change", "user_huddle_changed", "user_profile_changed", "user_status_changed", "workflow_deleted", "workflow_published", "workflow_step_deleted", "workflow_step_execute", "workflow_unpublished"]
+      "bot_events": ["app_mention", "message.channels", "message.groups", "message.im", "message.mpim"]
     }
   }
 }

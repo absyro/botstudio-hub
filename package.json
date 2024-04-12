@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "hugo server --disableFastRender --noHTTPCache --gc --noBuildLock",
     "build": "hugo --minify --gc",
-    "format": "prettier layouts config content assets -w -c"
+    "format": "prettier **/** -w -c"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",

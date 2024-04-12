@@ -1,13 +1,3 @@
 {
-  "recommendations": [
-    "eamodio.gitlens",
-    "yzhang.markdown-all-in-one",
-    "PKief.material-icon-theme",
-    "zh9528.file-size",
-    "jock.svg",
-    "tamasfe.even-better-toml",
-    "syler.sass-indented",
-    "github.vscode-github-actions",
-    "sibiraj-s.vscode-scss-formatter"
-  ]
+  "recommendations": ["eamodio.gitlens", "yzhang.markdown-all-in-one", "PKief.material-icon-theme", "zh9528.file-size", "jock.svg", "tamasfe.even-better-toml", "syler.sass-indented", "github.vscode-github-actions", "sibiraj-s.vscode-scss-formatter"]
 }
