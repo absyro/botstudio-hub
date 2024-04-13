@@ -28,7 +28,7 @@
   "homepage": "https://github.com/absyro/botstudio-hub#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/absyro/botstudio-hub.git"
+    "url": "git+https://github.com/absyro/botstudio-hub.git"
   },
   "engines": {
     "node": ">=18.14.1"
