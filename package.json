@@ -16,7 +16,7 @@
     "@hyas/images": "^3.1.0",
     "@hyas/inline-svg": "^1.0.5",
     "@hyas/seo": "^2.2.0",
-    "@tabler/icons": "^3.1.0",
+    "@tabler/icons": "^3.2.0",
     "gethyas": "^2.2.2",
     "purgecss-whitelister": "^2.4.0",
     "postcss-cli": "11.0.0",
