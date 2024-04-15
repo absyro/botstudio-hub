@@ -65,6 +65,14 @@ figcaption {
     border-bottom: 1px solid var(--bs-border-color) !important;
 }
 
+.navbar-brand {
+    font-weight: normal;
+}
+
+.home .navbar-brand {
+    color: var(--bs-link-color);
+}
+
 figure {
     margin-top: 2rem;
     margin-bottom: 2rem;
