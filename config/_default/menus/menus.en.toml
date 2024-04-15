@@ -22,15 +22,15 @@
 
 [[footer]]
   name = "Privacy Policy"
-  url = "/privacy-policy"
+  url = "https://www.botstudioo.com/privacy-policy"
   weight = 10
 
 [[footer]]
   name = "Terms of Use"
-  url = "/terms-of-use"
+  url = "https://www.botstudioo.com/terms-of-use"
   weight = 20
 
 [[footer]]
   name = "Contact Us"
-  url = "/contact-us"
+  url = "https://www.botstudioo.com/contact-us"
   weight = 30
