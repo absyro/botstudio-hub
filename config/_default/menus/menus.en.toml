@@ -34,8 +34,3 @@
   name = "Contact Us"
   url = "/contact-us"
   weight = 30
-
-[[footer]]
-  name = "Photo Gallery"
-  url = "/photo-gallery"
-  weight = 40
