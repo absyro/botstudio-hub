@@ -1,4 +1,4 @@
-# Bot Studio Hub
+# Bot Studio Hub - The hub for Bot Studio's blogs and documents
 
 **Bot Studio Hub** is a project that provides a customized version of the Hugo's Doks theme. This project is a fork of the original Doks theme, which can be accessed by [clicking here](https://github.com/gethyas/doks).
 

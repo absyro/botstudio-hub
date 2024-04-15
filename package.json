@@ -1,7 +1,7 @@
 {
   "name": "botstudio-hub",
   "version": "1.6.0",
-  "description": "Bot Studio - Hub",
+  "description": "The hub for Bot Studio's blogs and documents",
   "author": "Absyro Company",
   "license": "MIT",
   "private": true,
