@@ -158,7 +158,7 @@ This manifest only includes message events. If you wish to use custom event list
 After completing these steps, your robot will be created in Bot Studio. Now there are a few other steps to complete:
 
 1. Return to Bot Studio's dashboard and click on your robot from the "Robots" submenu.
-2. Copy the value of "webhook address", which looks like this: `https://webhook.botstudioo.com/slack_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.
+2. Copy the value of "webhook address", which looks like this: `https://webhook.botstudioo.com/slack/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.
 3. Go back to your Slack application, and in the "Features" group, click on "Event Subscriptions".
 4. Paste the webhook URL address you copied from the bot's dashboard into this.
 5. Then, as you can see, the URL has been verified successfully. Click on the "Save Changes" button.
