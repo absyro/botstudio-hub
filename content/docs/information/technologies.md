@@ -1,5 +1,5 @@
 ---
-title: "Technology"
+title: "Technologies"
 description: ""
 summary: ""
 date: 2024-03-01T16:16:06Z
@@ -8,7 +8,7 @@ draft: false
 weight: 400
 toc: false
 seo:
-  title: "Bot Studio Docs - Technology"
+  title: "Bot Studio Docs - Technologies"
   description: "In this documentation, see which technologies Bot Studio is using. Click here to learn more."
   canonical: "https://www.botstudioo.com"
   noindex: false
@@ -86,6 +86,7 @@ Bot Studio uses SSR (Server Side Rendering) method which allows for faster initi
 - [xss](https://www.npmjs.com/package/xss): xss is a module used to filter input from users to prevent XSS attacks.
 - [response-time](https://www.npmjs.com/package/response-time): This module creates a middleware that records the response time for requests in HTTP servers.
 - [@slack/web-api](https://slack.dev/node-slack-sdk/web-api): The @slack/web-api package contains a simple, convenient, and configurable HTTP client for making requests to Slack's Web API.
+- [Playwright](https://playwright.dev): Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reliable and fast.
 
 ---
 
