@@ -47,11 +47,20 @@ main.docs-content ul li::marker {
 }
 
 nav.docs-toc {
-    border-left: 1px solid #23262f;
+    border-left: 1px solid var(--bs-border-color);
 }
 
 .page-links li:not(:first-child) {
     border-top-style: solid !important;
+}
+
+div.docs-sidebar ul li {
+    border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
+    border: 1px solid transparent;
+    border-left: none;
+}
+div.docs-sidebar ul li.active {
+    border-color: var(--bs-border-color);
 }
 
 @media (min-width: 1200px) {
