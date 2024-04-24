@@ -29,29 +29,36 @@ ol {
     padding-left: 1rem;
 }
 
-.docs-content ol {
+main.docs-content ol {
     list-style: none;
     counter-reset: ol-counter;
     padding-left: 0;
 }
-.docs-content ol li::before {
+main.docs-content ol li::before {
     content: counter(ol-counter) ". ";
     counter-increment: ol-counter;
 }
-.docs-content ul {
+main.docs-content ul {
     padding-left: 1.25rem;
 }
-.docs-content ol li::before,
-.docs-content ul li::marker {
+main.docs-content ol li::before,
+main.docs-content ul li::marker {
     color: var(--bs-tertiary-color);
 }
 
+nav.docs-toc {
+    border-left: 1px solid #23262f;
+}
+.page-links li:not(:first-child) {
+    border-top-style: solid !important;
+}
+
 @media (min-width: 1200px) {
-    .docs-content {
-        width: 80% !important;
+    main.docs-content {
+        width: 65% !important;
     }
 
-    .docs-sidebar {
+    div.docs-sidebar {
         margin-left: -3rem !important;
     }
 }
