@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 210
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Visual Editor"
   description: "In this documentation, you'll learn how you can use Bot Studio's visual editor to create robots using the JSON language. Click here to learn more."

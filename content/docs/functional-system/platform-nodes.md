@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 120
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Platform Nodes"
   description: "In Bot Studio, there are nodes that are only accessible through their specific platforms. Click here to learn more."

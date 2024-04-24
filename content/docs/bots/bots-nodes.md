@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 330
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Bot Nodes"
   description: "In this guide, we'll explore how bot nodes function across various platforms. We'll delve into their naming conventions, usage, and outputs."

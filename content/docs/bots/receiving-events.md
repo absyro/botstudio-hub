@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 320
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Receiving Events"
   description: "In this documentation, you'll learn how Bot Studio robots are receiving and managing events. Click here to learn more."

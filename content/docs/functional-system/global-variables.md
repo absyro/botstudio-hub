@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 130
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Global Variables"
   description: "Bot Studio's robot systems use global variables, an easy-to-use variable manager system. Click here to learn more."

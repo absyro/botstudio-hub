@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 100
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Nodes"
   description: "In Bot Studio, nodes are like puzzle pieces. You piece them together to easily create your robots. Click here to learn more."

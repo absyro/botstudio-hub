@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 400
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Technologies"
   description: "In this documentation, see which technologies Bot Studio is using. Click here to learn more."

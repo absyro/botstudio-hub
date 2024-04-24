@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 200
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Drag And Drop Editor"
   description: "In this documentation, you'll learn how you can create robots without coding using Bot Studio's drag-and-drop editor. Click here to learn more."

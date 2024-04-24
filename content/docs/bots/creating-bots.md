@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 300
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Creating Bots"
   description: "Want to create a robot without coding for free? Then Bot Studio is what you need. Click here to see how to create a robot for all platforms."

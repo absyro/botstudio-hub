@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 310
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Starting Bots"
   description: "In this documentation, you'll learn how Bot Studio starts a robot and what it does to it to make it operational. Click here to learn more."

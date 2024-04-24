@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 110
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Default Nodes"
   description: "In Bot Studio, certain nodes may be universally applicable across all platforms. Click here to see how they work."

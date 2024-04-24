@@ -6,7 +6,7 @@ date: 2024-03-01T16:16:06Z
 lastmod: 2024-03-01T16:16:06Z
 draft: false
 weight: 400
-toc: false
+toc: true
 seo:
   title: "Bot Studio Docs - Information"
   description: "See additional information related to the Bot Studio bot maker. Click here to learn more."
